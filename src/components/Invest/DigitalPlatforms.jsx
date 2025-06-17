@@ -3,13 +3,6 @@ import { Link } from 'react-router-dom';
 import Bg1 from '../../assets/bg2Flip.jpg';
 import AutoCarousel from './AutoCarousel';
 import './invest.css'
-
-import Car1 from '../../assets/car1.png'
-import Car2 from '../../assets/car2.png'
-import Car3 from '../../assets/car3.png'
-import Car4 from '../../assets/car4.png'
-import Car5 from '../../assets/car5.png'
-import { color } from 'framer-motion';
 import DigitalCarousel from './DigitalCarousel';
 
 const DigitalPlatforms = () => {

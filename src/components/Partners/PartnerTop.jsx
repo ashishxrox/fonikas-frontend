@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-import Partners2 from '../../assets/Partners2.webp'
+import Partners2 from '../../assets/partners2.webp'
 
 
 import { motion, useAnimation } from 'framer-motion';

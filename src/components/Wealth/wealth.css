@@ -1,0 +1,15 @@
+.wealth-main-cont{
+    margin-top: -800px;
+}
+
+@media screen and (max-width: 1600px){
+    .wealth-main-cont{
+        margin-top: -450px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .wealth-main-cont{
+        margin-top: 0px;
+    }
+}

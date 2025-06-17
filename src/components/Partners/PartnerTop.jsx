@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
-import Logo1 from '../../assets/newLogo.png';
-import Partners1 from '../../assets/Partners1.webp'
+
 import Partners2 from '../../assets/Partners2.webp'
-import Partners3 from '../../assets/Partners3.webp'
-import IBKRLogo from '../../assets/ibkrLogo.png'
+
 
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';

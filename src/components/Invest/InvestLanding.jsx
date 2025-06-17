@@ -5,10 +5,10 @@ import AutoCarousel from './AutoCarousel';
 import './invest.css'
 
 import Car1 from '../../assets/car1.png'
-import Car2 from '../../assets/car2.png'
-import Car3 from '../../assets/car3.png'
-import Car4 from '../../assets/car4.png'
-import Car5 from '../../assets/car5.png'
+import Car2 from '../../assets/Car2.png'
+import Car3 from '../../assets/Car3.png'
+import Car4 from '../../assets/Car4.png'
+import Car5 from '../../assets/Car5.png'
 
 const InvestLanding = () => {
     const headingRef = useRef([]);

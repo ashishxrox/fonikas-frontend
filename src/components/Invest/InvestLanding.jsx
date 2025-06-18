@@ -47,7 +47,7 @@ const InvestLanding = () => {
             style={{ backgroundImage: `url("${Bg1}")` }}
         >
             <div className='basis-[40%] h-full w-[60%] flex justify-center items-center flex-col'>
-                <div className='w-auto bg-[red] h-auto spotlight-container md:flex md:justify-center md:items-center leading-[normal]'>
+                <div className='w-auto  h-auto spotlight-container md:flex md:justify-center md:items-center leading-[normal]'>
                     <h1 className={`text-[5rem] text-white font-[900] text-center spotlight-text ${hovering ? 'hovering' : ''}`}
                         data-text="Investment Strategies"
                         ref={textRef}

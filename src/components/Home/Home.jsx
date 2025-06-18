@@ -219,7 +219,7 @@ const Home = () => {
               ref={movingTitleRef}
               className='basis-[55%] h-[90%] w-full flex justify-center items-center flex-col moving-title relative top-[-20%] left-[22%]'
             >
-              <div className='bg-[red] h-auto spotlight-container md:flex md:justify-center md:items-center leading-[normal]'>
+              <div className=' h-auto spotlight-container md:flex md:justify-center md:items-center leading-[normal]'>
                     <h1 className={`text-[5rem] text-white font-[900] text-center spotlight-text ${hovering ? 'hovering' : ''}`}
                         data-text="Your Life, Well Invested"
                         ref={textRef}

@@ -1,5 +1,5 @@
-.spotlight-text {
-  /* font-size: 3.2rem; */
+.spotlight-texth {
+  font-size: 3.2rem;
   /* Reduced font size */
   font-weight: 700;
   color: white;
@@ -8,12 +8,12 @@
   text-align: center;
   padding: 0 2rem;
   font-family: "Crimson Pro", serif;
-  display: inline-block;
+  /* display: inline-block; */
   --x: 50%;
   --y: 50%;
 }
 
-.spotlight-text::after {
+.spotlight-texth::after {
   content: attr(data-text);
   position: absolute;
   top: 0;
@@ -33,7 +33,7 @@
   transition: opacity 0.2s ease;
 }
 
-.spotlight-text.hovering::after {
+.spotlight-texth.hovering::after {
   opacity: 1;
   text-shadow: none;
 }

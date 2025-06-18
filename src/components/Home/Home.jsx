@@ -118,7 +118,7 @@ const Home = () => {
             </h1>
           </div>
 
-          <div className='h-[50px] w-auto md:w-[600px] relative bottom-[40px]'>
+          <div className='h-[50px] w-auto md:w-[600px] relative bottom-[10px]'>
             <p className='text-center text-white text-[1rem] md:text-[1.2rem] font-[500] px-[15px] mt-[0] md:mt-[50px] md:px-[0]'>
               Foinikas helps your wealth grow at every stage of life
             </p>
@@ -219,8 +219,8 @@ const Home = () => {
               ref={movingTitleRef}
               className='basis-[55%] h-[90%] w-full flex justify-center items-center flex-col moving-title relative top-[-20%] left-[22%]'
             >
-              <div className=' h-auto spotlight-container md:flex md:justify-center md:items-center leading-[normal]'>
-                    <h1 className={`text-[5rem] text-white font-[900] text-center spotlight-text ${hovering ? 'hovering' : ''}`}
+              <div className=' h-auto spotlighth-container hidden md:inline-block md:flex md:justify-center md:items-center leading-[normal]'>
+                    <h1 className={` text-white font-[900] text-center spotlight-texth ${hovering ? 'hovering' : ''}`}
                         data-text="Your Life, Well Invested"
                         ref={textRef}
                         onMouseMove={handleMouseMove}

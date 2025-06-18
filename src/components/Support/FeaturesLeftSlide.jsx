@@ -79,6 +79,7 @@ const FeaturesLeftSlide = () => {
 
   return (
     <div className="overflowX-hidden"
+    style={{overflowX:"hidden"}}
     >
       {/* Fixed progress indicator (optional) */}
       <div className="fixed top-5 w-full h-2 bg-black z-50"

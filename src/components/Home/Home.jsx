@@ -219,25 +219,10 @@ const Home = () => {
               ref={movingTitleRef}
               className='basis-[55%] h-[90%] w-full flex justify-center items-center flex-col moving-title relative top-[-20%] left-[22%]'
             >
-              <div className='h-[175px] w-auto md:w-[full]  spotlight-container md:flex md:justify-center md:items-center  '>
+              <div className='h-auto  w-auto  spotlight-container md:flex md:justify-center md:items-center  leading-[normal]'>
+                {/* <div className='h-auto w-auto '></div> */}
                 <h1
-                  className='md:hidden block text-[2rem] md:text-[3.2rem] font-[700] px-[10px] md:px-[0] text-center leading-[normal] text-white hero-text'
-                  style={{ textShadow: '2px 2px 5px #000' }}
-                >
-                  {headingText.split(' ').map((word, i) => (
-                    <span
-                      key={i}
-                      ref={addToRefs}
-                      className='inline-block mx-[6px] word-spotlight' // Adding a new class for spotlight effect
-                      style={{ display: 'inline-block' }}
-                    >
-                      {word}
-                    </span>
-                  ))}
-                </h1>
-
-                <h1
-                  className={`spotlight-text ${hovering ? 'hovering' : ''} md:inline-block hidden  md:text-[3.2rem] font-[700] px-[10px] md:px-[0] text-center leading-[normal] text-white hero-text`}
+                  className={`spotlight-text ${hovering ? 'hovering' : ''} md:inline-block hidden  md:text-[3.2rem] font-[700] px-[10px] md:px-[0] text-center  text-white hero-text`}
                   data-text="Your Life, well-invested"
                   ref={textRef}
                   onMouseMove={handleMouseMove}

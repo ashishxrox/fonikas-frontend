@@ -47,3 +47,12 @@
   transform: scale(1.05);
 }
 
+.spotlight-container{
+  width: auto;
+}
+
+@media screen and (min-width: 1800px){
+  .spotlight-container{
+    width: 750px;
+  }
+}

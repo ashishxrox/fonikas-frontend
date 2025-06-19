@@ -64,10 +64,10 @@ const HomeAbout = () => {
     ));
 
     return (
-        <div className='h-[1200px] md:h-[100vh]  w-full flex justify-center items-center bg-cover bg-no-repeat bg-black bg-center' style={{ backgroundImage: `url(${Bg1})` }}>
+        <div className='h-[1500px] md:h-[100vh]  w-full flex justify-center items-center bg-cover bg-no-repeat bg-black bg-center' style={{ backgroundImage: `url(${Bg1})` }}>
             <div className='h-full w-[90%] flex justify-between items-center flex-col md:flex-row gap-[20px] mt-[80px] md:mt-[0]'>
                 <div
-                    className="basis-[45%] md:basis-[30%] h-[85%] w-full flex justify-center items-center flex-col"
+                    className="basis-[32%] md:basis-[30%] h-[85%] w-full flex justify-center items-center flex-col"
                     style={{ fontFamily: "Inter" }}
                     ref={ref}
                 >
@@ -143,8 +143,8 @@ const HomeAbout = () => {
                         </div>
                     </div>
                 </div>
-                <div className='basis-[55%] h-[full] w-full flex justify-start gap-[20px] items-center flex-col md:hidden '>
-                    <div className='basis-[48%] h-full w-full flex justify-between items-center flex-row'>
+                <div className='basis-[68%] h-[full] w-full flex justify-start gap-[20px] items-center flex-col md:flex-row md:hidden '>
+                    <div className='basis-[48%] h-full w-full flex justify-between items-center flex-col md:flex-row'>
                         <div className='basis-[48%] h-full w-full'>
                             <AboutCard icon={<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-shield h-10 w-10 text-white" data-lov-id="src/pages/AboutUs.tsx:8:10" data-lov-name="Shield" data-component-path="src/pages/AboutUs.tsx" data-component-line="8" data-component-file="AboutUs.tsx" data-component-name="Shield" data-component-content="%7B%22className%22%3A%22h-20%20w-20%20text-white%22%7D"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>}
                                 title="Heading1"
@@ -161,7 +161,7 @@ const HomeAbout = () => {
                             />
                         </div>
                     </div>
-                    <div className='basis-[48%] h-full w-full flex justify-between items-center flex-row mb-[80px]'>
+                    <div className='basis-[48%] h-full w-full flex justify-between items-center flex-col md:flex-row mb-[80px]'>
                         <div className='basis-[48%] h-full w-full '>
                             <AboutCard icon={
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users h-10 w-10 text-white" data-lov-id="src/pages/AboutUs.tsx:20:10" data-lov-name="Users" data-component-path="src/pages/AboutUs.tsx" data-component-line="20" data-component-file="AboutUs.tsx" data-component-name="Users" data-component-content="%7B%22className%22%3A%22h-20%20w-20%20text-white%22%7D"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>

@@ -45,7 +45,7 @@ const PartnerBottom = () => {
         <div ref={ref} className='h-full w-full flex justify-between items-start flex-col md:flex-row'>
             {/* Text Block */}
             <motion.div
-                className='basis-[65%] flex justify-center px-[40px] items-center flex-col h-[90%] w-full bg-[#66023C] rounded-[10px] bg-[rgba(255,255,255,0.1)] shadow-lg backdrop-blur-[5px]'
+                className='md:basis-[65%] flex justify-center px-[25px]  md:px-[40px] items-center flex-col h-[90%] w-full bg-[#66023C] rounded-[10px] bg-[rgba(255,255,255,0.1)] shadow-lg backdrop-blur-[5px]'
                 initial="hidden"
                 animate={controls}
                 variants={container}
@@ -75,7 +75,7 @@ const PartnerBottom = () => {
 
             {/* Image Block */}
             <motion.div
-                className='basis-[33%] h-[90%] relative w-full bg-[#d9d9d9] rounded-[10px]  shadow-lg'
+                className='basis-[33%] h-[90%] relative w-full bg-[#d9d9d9] rounded-[10px]  shadow-lg hidden md:block'
                 style={{ background: "linear-gradient(180deg, rgba(156, 75, 121, 0.682243) 0%, rgba(211, 165, 189, 0.8) 100%)" }}
                 initial={{ opacity: 0, y: 50 }}
                 animate={imageControls}

@@ -34,11 +34,11 @@ const OurHeritage = () => {
   return (
     <div
       ref={ref}
-      className='h-[900px] md:h-[100vh] w-full bg-cover bg-center flex justify-center gap-[35px] items-center flex-col'
+      className='h-[700px] md:h-[100vh] w-full bg-cover bg-center flex justify-center gap-[35px] items-center flex-col'
       style={{ backgroundImage: `url("${Bg}")` }}
     >
       <motion.div
-        className='basis-[45%] md:basis-[35%] h-full w-[90%] flex justify-between items-center flex-row'
+        className='basis-[50%] md:basis-[35%] h-full w-[90%] flex justify-between items-center flex-row'
         variants={fadeInDown}
         initial="hidden"
         animate={mainControls}

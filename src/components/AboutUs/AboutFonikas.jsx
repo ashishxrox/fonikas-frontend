@@ -14,7 +14,7 @@ const AboutFonikas = () => {
                     <div className='h-full w-full md:w-[60%] about-card  rounded-[12px] flex justify-between items-center relative'
                         style={{ boxShadow: "2px 2px 5px #000" }}
                     >
-                        <div className='md:basis-[70%] h-full w-full px-[50px] py-[20px] flex justify-center items-start gap-[20px] flex-col'>
+                        <div className='md:basis-[70%] h-full w-full px-[25px] md:px-[50px] py-[20px] flex justify-center items-start gap-[20px] flex-col'>
                             <h2 className='titleText'>Why we started Foinikas</h2>
                             <p className='paragraph'>
 
@@ -40,7 +40,7 @@ const AboutFonikas = () => {
                         >
                             <div className='h-full w-full bg-[rgba(0,0,0,0.3)]'></div>
                         </div>
-                        <div className='md:basis-[70%] h-full w-full px-[50px] py-[20px] flex justify-center items-start md:items-end gap-[20px] flex-col'>
+                        <div className='md:basis-[70%] h-full w-full px-[25px] md:px-[50px] py-[20px] flex justify-center items-start md:items-end gap-[20px] flex-col'>
                             <h2 className='titleText'>What we do</h2>
                             <p className='paragraph tex-left md:text-right'>
 

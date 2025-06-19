@@ -8,7 +8,7 @@ import './carousel.css';
 
 const AutoCarousel = ({ items, count }) => {
     return (
-        <div className="h-[90%] w-full px-4 py-8">
+        <div className="h-[90%] w-full md:px-4 py-8">
             <Swiper
                 spaceBetween={20}
                 slidesPerView={1}
@@ -31,7 +31,7 @@ const AutoCarousel = ({ items, count }) => {
                             <div
                                 className={`h-full w-full rounded-3xl relative flex ${
                                     count === 4 ? 'justify-start items-start' : 'justify-end items-start'
-                                } flex-col px-[40px] py-[40px] gap-[20px]`}
+                                } flex-col px-[20px] md:px-[40px] py-[40px] gap-[20px]`}
                                 style={{
                                     background: `${
                                         count === 3
@@ -43,7 +43,7 @@ const AutoCarousel = ({ items, count }) => {
                                 <h2
                                     className={`tertiaryTitle text-white ${
                                         count === 3
-                                            ? 'w-[80%] text-left'
+                                            ? 'w-[90%] md:w-[80%] text-left'
                                             : count === 4
                                             ? 'w-[95%] text-left'
                                             : 'w-[80%] text-left'
@@ -54,10 +54,10 @@ const AutoCarousel = ({ items, count }) => {
                                 <p
                                     className={`paragraph ${
                                         count === 3
-                                            ? 'w-[80%] text-left'
+                                            ? 'w-[90%] md:w-[80%] text-left'
                                             : count === 4
                                             ? 'w-full text-left'
-                                            : 'w-[80%] text-left'
+                                            : 'w-[90%] md:w-[80%] text-left'
                                     }`}
                                 >
                                     {item.content}

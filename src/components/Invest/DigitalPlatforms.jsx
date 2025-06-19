@@ -37,12 +37,12 @@ const DigitalPlatforms = () => {
     ];
     return (
         <div
-            className='bg-black h-[900px] md:h-[135vh] w-full md:hidden flex justify-end items-center flex-col bg-center bg-cover bg-no-repeat'
+            className='bg-black h-[700px] md:h-[135vh] w-full md:hidden flex justify-end items-center flex-col bg-center bg-cover bg-no-repeat'
             style={{ backgroundImage: `url("${Bg1}")` }}
         >
-            <div className='basis-[50%] h-full w-[60%] flex justify-center items-center flex-col'>
+            <div className='basis-[50%] h-full w-[90%] md:w-[60%] flex justify-center items-center flex-col'>
                 <div className='w-auto h-auto spotlight-container md:flex md:justify-center md:items-center leading-[normal]'>
-                    <h1 className={`text-[5rem] text-white font-[900] text-center spotlight-text ${hovering ? 'hovering' : ''}`}
+                    <h1 className={`text-[3rem] md:text-[5rem] text-white font-[900] text-center spotlight-text ${hovering ? 'hovering' : ''}`}
                         data-text="Digital Platform"
                         ref={textRef}
                         onMouseMove={handleMouseMove}
@@ -52,7 +52,7 @@ const DigitalPlatforms = () => {
                     >Digital Platform</h1>
                 </div>
                 <h3 className='secondaryTitle text-white text-center'>How Foinikas Creates Value</h3>
-                <h4 className='tertiaryTitle my-[10px] text-white text-center'>Built on infrastructure designed for the world's most demanding investors</h4>
+                <h4 className='paragraph my-[10px] text-white text-center md:hidden block'>Built on infrastructure designed for the world's most demanding investors</h4>
                 {/* <p className='paragraph text-center my-[10px]'>At Foinikas, we combine institutional-grade technology with active portfolio management to help you grow and protect wealth—intentionally, not passively. Every strategy is shaped by your goals, guided by research, and managed with care.</p> */}
                 {/* <Link to={"/book"} className='home-btn flex justify-center items-center my-[10px]'>Start Investing Today</Link> */}
             </div>

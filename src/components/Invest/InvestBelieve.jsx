@@ -6,11 +6,11 @@ import './invest.css'
 const InvestBelieve = () => {
     return (
         <div
-            className='bg-black h-[1300px] md:h-[100vh] w-full flex justify-center items-center gap-[20px] flex-col bg-center bg-cover bg-no-repeat'
+            className='bg-black h-[1500px] md:h-[100vh] w-full flex justify-center items-center gap-[20px] flex-col bg-center bg-cover bg-no-repeat'
             style={{ backgroundImage: `url("${Bg1}")` }}
         >
             
-            <div className='h-[95%] md:h-[80%] w-[80%] flex justify-between items-center flex-col md:flex-row'>
+            <div className='h-[95%] md:h-[80%] w-[95%] md:w-[80%] flex justify-between items-center flex-col md:flex-row'>
                 <div className='basis-[32%] h-full w-full  flex justify-between items-center flex-col md:flex-col'>
                     <div className='basis-[48%] h-full w-full ic1 rounded-[12px] flex justify-center items-center'>
                         <div className='h-[90%] w-[90%] ac-hover flex justify-center items-start  flex-col gap-[10px] px-[25px] bg-[rgba(0,0,0,0.2)] backdrop-blur-[3px] rounded-[12px]'

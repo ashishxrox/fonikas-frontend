@@ -66,12 +66,14 @@ const Accordian = () => {
   };
 
   return (
-    <div className='w-full max-h-[800px] md:h-[55vh]  md:bg-[rgba(255,255,255,0.05)] rounded-[12px] backdrop-blur-[15px] flex justify-center items-center'>
+    <div className='w-full max-h-[400px] md:h-[55vh]  md:bg-[rgba(255,255,255,0.05)] rounded-[12px] backdrop-blur-[15px] flex justify-center items-center'>
 
 
       <div className='h-[80%] w-[95%] overflow-y-auto rounded-[12px]'>
         {Object.entries(faqData).map(([sectionTitle, items], sectionIdx) => (
-          <div key={sectionTitle} className='mb-6 bg-[rgba(255,255,255,0.1)] px-[40px] py-[30px] rounded-[24px] '>
+          <div key={sectionTitle} className={`mb-6 bg-[rgba(255,255,255,0.1)] px-[20px] md:px-[40px] py-[25px] md:py-[30px] rounded-[24px]
+          ${sectionIdx === 0? "mt-[500px] md:mt-[0]": ""}
+          `}>
             <h2 className='tertiaryTitle mb-4 text-white text-left'>{sectionTitle}</h2>
             {items.map((item, index) => (
               <div key={`${sectionIdx}-${index}`} className='mb-3'
@@ -82,14 +84,14 @@ const Accordian = () => {
                 <div
                   onClick={() => toggleAccordion(sectionTitle, index)}
                   className={`w-full flex justify-between items-center flex-row cursor-pointer
-                            h-[80px] md:h-[50px] text-left `}
+                            h-[40px] md:h-[50px] text-left `}
                   style={{
 
                     transition: "all 0.3s ease",
 
                   }}
                 >
-                  <p className={`text-[1rem] text-white ${openItem.section === sectionTitle && openItem.index === index ? "font-[900]" : ""}`}
+                  <p className={`text-[0.8rem] md:text-[1rem] text-white ${openItem.section === sectionTitle && openItem.index === index ? "font-[900]" : ""}`}
                     style={{ transition: "all 0.3s ease-in-out" }}
                   >{item.q}</p>
                   <svg

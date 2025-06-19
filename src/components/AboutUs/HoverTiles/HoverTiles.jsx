@@ -10,8 +10,8 @@ import { Link } from 'react-router-dom'
 const HoverTiles = () => {
   return (
     <div className='h-[1000px] md:h-[100vh] w-full bg-cover bg-center flex justify-center items-center flex-col' style={{ backgroundImage: `url("${Bg}")` }}>
-      <div className='h-[10%] w-[70%] flex justify-between items-start felx-row'>
-        <h3 className='titleText text-left'>Find Your Perfect Portfolio</h3>
+      <div className='h-[20%] md:h-[10%] w-[70%] flex justify-center md:justify-between items-center md:items-start flex-col md:flex-row'>
+        <h3 className='titleText text-center md:text-left'>Find Your Perfect Portfolio</h3>
         <Link className="secondary-btn flex justify-center items-center mt-[30px] md:mt-0" to={"/login"}>Get Started</Link>
       </div>
 

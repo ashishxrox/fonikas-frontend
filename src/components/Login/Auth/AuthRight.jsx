@@ -9,10 +9,10 @@ const AuthRight = ({setShow}) => {
                 <h2 className='titleText'>Welcome to Foinikas</h2>
                 <p className='paragraph'>Your journey to smarter investing starts here</p>
             </div>
-            <div className='w-[80%] md:w-[65%]'>
+            <div className='w-[90%] md:w-[65%]'>
                 <AuthCard setShow={setShow}/>
             </div>
-            <div className='basis-[20%] h-full w-[80%] md:w-[65%] rounded-[12px] bg-[rgba(255,255,255,0.3)] flex justify-center items-center flex-col px-[20px] gap-[15px]'
+            <div className='basis-[20%] h-full w-[90%] md:w-[65%] rounded-[12px] bg-[rgba(255,255,255,0.3)] flex justify-center items-center flex-col px-[20px] gap-[15px]'
                 style={{ boxShadow: "2px 2px 5px #000",
                     // background: "linear-gradient(to right, #f0fdf4 50%, #eff6ff)"
                  }}

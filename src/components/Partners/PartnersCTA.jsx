@@ -11,7 +11,7 @@ const PartnersCTA = () => {
     return (
         <div className='h-full w-full flex justify-between items-ceter flex-col mb-[50px]'>
             <div className='basis-[27%] md:basis-[37%] h-full w-full flex justify-evenly items-center flex-col gap-[10px]'>
-                <h2 className='titleText'>Make Your Money Echo Through Life</h2>
+                <h2 className='titleText text-center md:text-left'>Make Your Money Echo Through Life</h2>
                 <p className='paragraph text-center md:w-[70%]'>Vacation keys, university caps, carefree retirements—whatever milestone is on the horizon, we blend human guidance with forward-thinking tools to amplify every financial ripple</p>
                 <Link to={"/book"} className='home-btn flex justify-center items-center '>Start your Wealth Journey</Link>
             </div>

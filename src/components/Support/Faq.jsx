@@ -34,22 +34,22 @@ const Faq = () => {
             variants={containerVariants}
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
-            className='h-[1350px] md:h-[120vh] w-full bg-black bg-cover bg-no-repeat bg-center flex justify-center items-center flex-col'
+            className='h-auto md:h-[120vh] w-full bg-black bg-cover bg-no-repeat bg-center flex justify-center items-center flex-col gap-[30px] md:gap-[0]'
             style={{ backgroundImage: `url("${Bg1}")` }}
         >
-            <div className='basis-[35%] h-full w-[90%] pt-[50px]'>
+            <div className='basis-[45%] md:basis-[35%] h-full w-[90%] md:pt-[50px]'>
                 <Management/>
             </div>
             {/* <div className='basis-[28%] h-full w-[90%] bg-[red] mt-[50px]'>
                 <FeaturesLeftSlide/>
             </div> */}
 
-            <div className='basis-[65%] w-full h-full flex justify-center items-center flex-col'>
+            <div className='basis-[45%] md:basis-[65%] w-full h-full flex justify-center items-center flex-col'>
                 <h3 className='secondaryTitle text-white text-center md:text-left'>Frequently Asked Questions</h3>
-                <div className='w-[90%] h-[70%] md:h-[80%] flex justify-between items-center md:items-start md:pt-[60px] flex-col-reverse md:flex-row'>
+                <div className='w-full md:w-[90%] h-[90%] md:h-[80%] flex justify-between items-center md:items-start md:pt-[60px] flex-col-reverse md:flex-row'>
                     <motion.div
                         variants={itemVariants}
-                        className='support-box basis-[25%] h-full  md:h-[65%] w-full rounded-[20px] py-[20px] md:pb-[20px] px-[15px] flex justify-end items-center flex-col gap-[10px]'
+                        className='support-box basis-[25%] h-full  md:h-[65%] w-full rounded-[20px] py-[20px] md:pb-[20px] px-[15px] flex justify-end items-center flex-col gap-[10px] mt-[40px] md:mt-[0]'
                         style={{
                             background: "linear-gradient(180deg, #311B92 38.9%, #84FFFF 157.94%)",
                             boxShadow: "0px 0px 49px -2px #00000030"
@@ -67,7 +67,7 @@ const Faq = () => {
                         className='basis-[71%] h-[75%] md:h-full w-full  flex justify-between items-start flex-col'
                     >
 
-                        <div className='h-[90%] w-full overflow-scroll hide-scrollbar flex justify-center items-center'>
+                        <div className='h-[90%] w-full overflow-scroll hide-scrollbar flex justify-center items-center rounded-[12px]'>
                             <Accordian />
                             {/* <div className='h-[90%] w-[90%] bg-[red]'></div> */}
 

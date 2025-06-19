@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className='h-[1400px] md:h-[55vh] w-full bg-cover bg-bottom relative' 
+    <div className='h-[950px] md:h-[55vh] w-full bg-cover bg-bottom relative' 
     
     // style={{ backgroundImage: `url("${Bg}")` }}
     

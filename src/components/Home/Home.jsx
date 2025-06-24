@@ -139,11 +139,11 @@ const Home = () => {
         <div className='md:hidden basis-[85%] md:basis-[45%] mt-[40px] md:mt-[0] h-full w-[90%] flex justify-between items-center flex-col md:flex-row gap-[20px]'>
           <div className='basis-[20%] h-card   h-[60%] w-full rounded-[6px] overflow-hidden bg-[rgba(255,255,255,0.2)] backdrop-blur-[5px]  bg-cover bg-center'
             style={{
-              backgroundImage: `url("${HCard3}")`,
+              background: "linear-gradient(180deg, #4F012E 0%, #AA0063 100%)",
               boxShadow: "2px 2px 50px rgba(255,255,255,0.2)"
             }}
           >
-            <div className='h-full w-full bg-[rgba(0,0,0,0.7)] px-[20px] py-[20px] flex justify-end items-start flex-col '
+            <div className='h-full w-full bg-[rgba(0,0,0,0.0)] px-[20px] py-[20px] flex justify-end items-start flex-col '
             // style={{background:"linear-gradient(to bottom, rgab(0,0,0,0))"}}
             >
               <h2 className='titleText'>+160</h2>
@@ -153,11 +153,11 @@ const Home = () => {
           </div>
           <div className='basis-[20%] h-card   h-[60%] w-full rounded-[6px] overflow-hidden bg-[rgba(255,255,255,0.2)] backdrop-blur-[5px]  bg-cover bg-center'
             style={{
-              backgroundImage: `url("${HCard2}")`,
+              background: "linear-gradient(180deg, #4F012E 0%, #AA0063 100%)",
               boxShadow: "2px 2px 50px rgba(255,255,255,0.2)"
             }}
           >
-            <div className='h-full w-full bg-[rgba(0,0,0,0.7)] px-[20px] py-[20px] flex justify-end items-start flex-col '>
+            <div className='h-full w-full bg-[rgba(0,0,0,0.0)] px-[20px] py-[20px] flex justify-end items-start flex-col '>
               <h2 className='titleText'>+100</h2>
               <p className='paragraph text-left md:mb-[15px]'>Asset classes and return sources to unlock performance potential</p>
             </div>
@@ -165,11 +165,11 @@ const Home = () => {
           </div>
           <div className='basis-[20%] h-card   h-[60%] w-full rounded-[6px] overflow-hidden bg-[rgba(255,255,255,0.2)] backdrop-blur-[5px]  bg-cover bg-center'
             style={{
-              backgroundImage: `url("${HCard1}")`,
+              background: "linear-gradient(180deg, #4F012E 0%, #AA0063 100%)",
               boxShadow: "2px 2px 50px rgba(255,255,255,0.2)"
             }}
           >
-            <div className='h-full w-full bg-[rgba(0,0,0,0.7)] px-[20px] py-[20px] flex justify-end items-start flex-col '>
+            <div className='h-full w-full bg-[rgba(0,0,0,0.0)] px-[20px] py-[20px] flex justify-end items-start flex-col '>
               <h2 className='titleText'>+43k</h2>
               <p className='paragraph text-left md:mb-[15px]'>Instruments available to diversify portfolios with institutional breadth</p>
             </div>
@@ -177,11 +177,11 @@ const Home = () => {
           </div>
           <div className='basis-[20%] h-card   h-[60%] w-full rounded-[6px] overflow-hidden bg-[rgba(255,255,255,0.2)] backdrop-blur-[5px]  bg-cover bg-top md:bg-center'
             style={{
-              backgroundImage: `url("${HCard4}")`,
+              background: "linear-gradient(180deg, #4F012E 0%, #AA0063 100%)",
               boxShadow: "2px 2px 50px rgba(255,255,255,0.2)"
             }}
           >
-            <div className='h-full w-full bg-[rgba(0,0,0,0.7)] px-[20px] py-[20px] flex justify-end items-start flex-col '>
+            <div className='h-full w-full bg-[rgba(0,0,0,0.0)] px-[20px] py-[20px] flex justify-end items-start flex-col '>
               <h2 className='titleText'>99.9%</h2>
               <p className='paragraph text-left md:mb-[15px]'>Platform uptime—built for stability, even in extreme market conditions</p>
             </div>
@@ -189,11 +189,11 @@ const Home = () => {
           </div>
           <div className='basis-[20%] h-card   h-[60%] w-full rounded-[6px] overflow-hidden bg-[rgba(255,255,255,0.2)] backdrop-blur-[5px]  bg-cover bg-center'
             style={{
-              backgroundImage: `url("${HCard5}")`,
+              background: "linear-gradient(180deg, #4F012E 0%, #AA0063 100%)",
               boxShadow: "2px 2px 50px rgba(255,255,255,0.2)"
             }}
           >
-            <div className='h-full w-full bg-[rgba(0,0,0,0.7)] px-[20px] py-[20px] flex justify-end items-start flex-col '>
+            <div className='h-full w-full bg-[rgba(0,0,0,0.0)] px-[20px] py-[20px] flex justify-end items-start flex-col '>
               <h2 className='titleText'>−98%</h2>
               <p className='paragraph text-left'>Execution slippage reduced by up to 98% vs traditional banks—preserving more of your portfolio's value</p>
             </div>

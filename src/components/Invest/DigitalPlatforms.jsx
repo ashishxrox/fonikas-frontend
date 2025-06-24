@@ -56,7 +56,7 @@ const DigitalPlatforms = () => {
                 {/* <p className='paragraph text-center my-[10px]'>At Foinikas, we combine institutional-grade technology with active portfolio management to help you grow and protect wealth—intentionally, not passively. Every strategy is shaped by your goals, guided by research, and managed with care.</p> */}
                 {/* <Link to={"/book"} className='home-btn flex justify-center items-center my-[10px]'>Start Investing Today</Link> */}
             </div>
-            <div className='basis-[50%] h-full w-[80%]'>
+            <div className='basis-[50%] h-full w-[95%] md:w-[80%]'>
                 <DigitalCarousel items={items} count={4} />
             </div>
         </div>

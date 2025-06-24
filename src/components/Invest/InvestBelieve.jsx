@@ -37,7 +37,7 @@ const InvestBelieve = () => {
                         >
                             <h2 className='titleText'>We Believe</h2>
                         </div>
-                        <div className='h-[40%] w-[90%] ac-hover flex justify-center items-start flex-col gap-[10px] px-[25px] bg-[rgba(0,0,0,0.3)] backdrop-blur-[10px] rounded-[12px]'
+                        <div className='h-[50%] md:h-[40%] w-[90%] ac-hover flex justify-center items-start flex-col gap-[10px] px-[25px] bg-[rgba(0,0,0,0.3)] backdrop-blur-[10px] rounded-[12px]'
                             style={{ boxShadow: "2px 2px 5px #000" }}>
                             <h4 className='tertiaryTitle text-white'>Passive investing has limits life doesn't follow an index</h4>
                             <p className='paragraph'>Markets go up and down, but real life brings unexpected changes. Passive portfolios often fail to adjust when your life does. We actively manage risk and rebalance strategy to fit where you are now—not just where the market happens to be.</p>

@@ -10,7 +10,8 @@ const TrustMarkers = () => {
         <div className='h-[65%] w-full flex justify-between items-center flex-row'>
             <div className='basis-[49%] h-full w-full flex justify-between items-center flex-col'>
                 <div className='basis-[37%] h-full w-full  rounded-[12px] bg-cover bg-center overflow-hidden flex justify-center items-center'
-                    style={{ backgroundImage: `url("${Trust1}")` }}
+                    // style={{ backgroundImage: `url("${Trust1}")` }}
+                    style={{background: "linear-gradient(180deg, #4F012E 0%, #AA0063 100%)"}}
                 >
                     <div className='h-[85%] w-[90%] flex justify-end items-start flex-col gap-[10px] px-[20px] py-[20px] bg-[rgba(0,0,0,0.2)] backdrop-blur-[15px] rounded-[12px]'
                         // style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,0.8))" }}
@@ -23,7 +24,8 @@ const TrustMarkers = () => {
                     </div>
                 </div>
                 <div className='basis-[61%] h-full w-full rounded-[12px] bg-cover bg-center overflow-hidden flex justify-center items-center'
-                    style={{ backgroundImage: `url("${Trust2}")` }}
+                    // style={{ backgroundImage: `url("${Trust2}")` }}
+                    style={{background: "linear-gradient(180deg, #4F012E 0%, #AA0063 100%)"}}
                 >
                     <div className='h-[85%] w-[90%] flex justify-end items-start flex-col gap-[10px] px-[20px] py-[20px] bg-[rgba(0,0,0,0.2)] backdrop-blur-[15px] rounded-[12px]'
                         // style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,0.8))" }}
@@ -38,7 +40,8 @@ const TrustMarkers = () => {
             </div>
             <div className='basis-[49%] h-full w-full flex justify-between items-center flex-col'>
                 <div className='basis-[50%] h-full w-full  rounded-[12px] bg-cover bg-center overflow-hidden flex justify-center items-center'
-                    style={{ backgroundImage: `url("${Trust5}")` }}
+                    // style={{ backgroundImage: `url("${Trust5}")` }}
+                    style={{background: "linear-gradient(180deg, #4F012E 0%, #AA0063 100%)"}}
                 >
                     <div className='h-[85%] w-[90%] flex justify-end items-start flex-col gap-[10px] px-[20px] py-[20px] bg-[rgba(0,0,0,0.2)] backdrop-blur-[15px] rounded-[12px]'
                         // style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,0.8))" }}
@@ -53,7 +56,8 @@ const TrustMarkers = () => {
                 </div>
                 <div className='basis-[47%] h-full w-full  flex justify-between items-center flex-row'>
                     <div className='basis-[48%] h-full w-full  rounded-[12px] bg-cover bg-center overflow-hidden flex justify-center items-center'
-                        style={{ backgroundImage: `url("${Trust4}")` }}
+                        // style={{ backgroundImage: `url("${Trust4}")` }}
+                        style={{background: "linear-gradient(180deg, #4F012E 0%, #AA0063 100%)"}}
                     >
                         <div className='h-[90%] w-[85%] flex justify-end items-start flex-col gap-[10px] px-[10px] py-[10px] bg-[rgba(0,0,0,0.2)] backdrop-blur-[15px] rounded-[12px]'
                         // style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,0.8))" }}
@@ -66,7 +70,8 @@ const TrustMarkers = () => {
                     </div>
                     </div>
                     <div className='basis-[48%] h-full w-full  rounded-[12px] bg-cover bg-center overflow-hidden flex justify-center items-center'
-                        style={{ backgroundImage: `url("${Trust3}")` }}
+                        // style={{ backgroundImage: `url("${Trust3}")` }}
+                        style={{background: "linear-gradient(180deg, #4F012E 0%, #AA0063 100%)"}}
                     >
                         <div className='h-[90%] w-[85%] flex justify-end items-start flex-col gap-[10px] px-[10px] py-[10px] bg-[rgba(0,0,0,0.2)] backdrop-blur-[15px] rounded-[12px]'
                         // style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,0.8))" }}

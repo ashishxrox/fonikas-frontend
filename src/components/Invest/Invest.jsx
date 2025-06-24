@@ -9,10 +9,11 @@ const Invest = () => {
   return (
     <div>
       <InvestLanding/>
+      <HoverTiles/>
       <InvestBelieve/>
       <DigitalPlatforms/>
       <HorizontalScroll/>
-      <HoverTiles/>
+      
     </div>
   )
 }

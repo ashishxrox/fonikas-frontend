@@ -1,5 +1,5 @@
 import React from 'react'
-import Bg from '../../../assets/bg1.jpg'
+import Bg from '../../../assets/main12.jpg'
 import HoverCards from './HoverCards'
 import SecurityImage from '../../../assets/security.png'
 import UserFriendlyImage from '../../../assets/userFriendly.jpeg'

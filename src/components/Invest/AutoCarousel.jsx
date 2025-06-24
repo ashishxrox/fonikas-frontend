@@ -20,49 +20,49 @@ const AutoCarousel = ({ items, count }) => {
                 autoplay={{ delay: 4500, disableOnInteraction: false }}
                 loop={true}
                 pagination={{ clickable: true }}
-                modules={[Autoplay, Pagination]}
+                modules={[ Pagination]}
             >
                 {items.map((item) => (
                     <SwiperSlide key={item.id}>
                         <div
-                            className={`bg-white shadow-lg rounded-3xl h-full overflow-hidden flex flex-col justify-center items-center text-center bg-cover bg-center`}
+                            className={` rounded-[24px]  h-full overflow-hidden  bg-cover bg-center`}
                             style={{ backgroundImage: `url("${item.img}")` }}
                         >
-                            <div
-                                className={`h-full w-full rounded-3xl relative flex ${
-                                    count === 4 ? 'justify-start items-start' : 'justify-end items-start'
-                                } flex-col px-[20px] md:px-[40px] py-[40px] gap-[20px]`}
-                                style={{
-                                    background: `${
-                                        count === 3
-                                            ? 'linear-gradient(to bottom,rgba(0,0,0,0) 45% , rgba(0,0,0,0.8))'
-                                            : ''
-                                    }`,
-                                }}
+                            <div className='h-full w-full flex flex-col justify-end items-center text-center pb-[40px]'
+                                style={{ background: "linear-gradient(180deg, rgba(135, 17, 193, 0.3) 10%, rgba(100, 3, 63, 0.8) 100%)" }}
                             >
-                                <h2
-                                    className={`tertiaryTitle text-white ${
-                                        count === 3
-                                            ? 'w-[90%] md:w-[80%] text-left'
-                                            : count === 4
-                                            ? 'w-[95%] text-left'
-                                            : 'w-[80%] text-left'
-                                    }`}
+
+                                <div
+                                    className={`h-auto w-[93%] bg-[rgba(0,0,0,0.3)] backdrop-blur-[15px] rounded-[12px]   relative flex ${count === 4 ? 'justify-start items-start' : 'justify-end items-start'
+                                        } flex-col px-[20px] md:px-[20px] py-[20px] gap-[20px]`}
+                                    style={{
+                                        boxShadow:"2px 2px 5px #000"
+                                    }}
                                 >
-                                    {item.title}
-                                </h2>
-                                <p
-                                    className={`paragraph ${
-                                        count === 3
-                                            ? 'w-[90%] md:w-[80%] text-left'
-                                            : count === 4
-                                            ? 'w-full text-left'
-                                            : 'w-[90%] md:w-[80%] text-left'
-                                    }`}
-                                >
-                                    {item.content}
-                                </p>
+                                    <h2
+                                        className={`tertiaryTitle text-white ${count === 3
+                                                ? 'w-[90%] md:w-[85%] text-left'
+                                                : count === 4
+                                                    ? 'w-[95%] text-left'
+                                                    : 'w-[80%] text-left'
+                                                
+                                            }`}
+                                    >
+                                        {item.title}
+                                    </h2>
+                                    <p
+                                        className={`paragraph ${count === 3
+                                                ? 'w-[90%] md:w-[80%] text-left'
+                                                : count === 4
+                                                    ? 'w-full text-left'
+                                                    : 'w-[90%] md:w-[80%] text-left'
+                                            }`}
+                                    >
+                                        {item.content}
+                                    </p>
+                                </div>
                             </div>
+
                         </div>
                     </SwiperSlide>
                 ))}

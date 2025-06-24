@@ -88,14 +88,15 @@ const FeaturesLeftSlide = () => {
       {/* Cards section */}
       <section
         ref={containerRef}
-        className="stacking-cards h-[100vh] w-[100vw] flex items-center justify-center bg-[#FFF8DC] flex-col relative overflowY-hidden"
+        // className="stacking-cards h-[100vh] w-[100vw] flex items-center justify-center bg-[#FFF8DC] flex-col relative overflowY-hidden"
+        className="stacking-cards h-[100vh] w-[100vw] flex items-center justify-center bg-[#a40b81] flex-col relative overflowY-hidden"
         // style={{backgroundImage:`url(${BG})`}}
       >
 
-        <img src={Airplane} alt=""  className='absolute bottom-[0%] w-[100%]'/>
+        {/* <img src={Airplane} alt=""  className='absolute bottom-[0%] w-[100%]'/> */}
         <div className='h-[45%] w-[50%] flex justify-center items-center'>
           <h1 className='titleText text-center'
-          style={{color:"#000", fontSize:"3.7rem", fontWeight:"200"}}
+          style={{color:"#fff", fontSize:"3.7rem", fontWeight:"200"}}
           >Align Risk with Strategy Optimize Every Part of Your Portfolio</h1>
         </div>
         <div className="w-full h-[55%] px-[clamp(20px,5vw,80px)]">
@@ -111,12 +112,13 @@ const FeaturesLeftSlide = () => {
             {cardData.map((data, idx) => (
               <div key={idx} className="card card-slide w-[calc(50vw-40px)] flex-shrink-0 md:w-[25%]">
                 <div className="h-full px-[30px] py-[40px] flex justify-start items-start gap-[20p] flex-col">
-                  <small>{data.subText}</small>
+                  <small className='text-white'>{data.subText}</small>
                   <h3 className='secondaryTitle'
-                  style={{color:"#680037"}}
+                  // style={{color:"#680037"}}
+                  style={{color:"#fff"}}
                   >{data.title}</h3>
                   <p className='paragraph w-[75%]'
-                  style={{color:"#000"}}
+                  style={{color:"#fff"}}
                   >{data.desc}</p>
                 </div>
               </div>

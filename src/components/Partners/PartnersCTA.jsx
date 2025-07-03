@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './partners.css'
 
-import Pcta1 from '../../assets/pCTA1.jpg'
-import Pcta2 from '../../assets/pCTA2.jpg'
-import Pcta3 from '../../assets/pCTA3.jpg'
-import Pcta4 from '../../assets/pCTA4.jpg'
+import Pcta1 from '../../assets/photos/family.jpg'
+import Pcta2 from '../../assets/photos/career.jpg'
+import Pcta3 from '../../assets/photos/education.png'
+import Pcta4 from '../../assets/photos/retire.jpg'
 
 const PartnersCTA = () => {
     return (
@@ -26,7 +26,7 @@ const PartnersCTA = () => {
                     {/* <img src={Pcta1} alt="" 
             style={{objectFit:"contain"}}
             /> */}
-                    <div className='h-full w-full bg-cover bg-center pcta-card-img'
+                    <div className='h-full w-full bg-cover bg-top pcta-card-img'
                         style={{ backgroundImage: `url('${Pcta1}')` }}
                     >
                         <div className='h-full w-full '
@@ -39,7 +39,7 @@ const PartnersCTA = () => {
                     {/* <img src={Pcta1} alt="" 
             style={{objectFit:"contain"}}
             /> */}
-                    <div className='h-full w-full bg-cover pcta-card-img'
+                    <div className='h-full w-full bg-cover bg-center pcta-card-img'
                         style={{ backgroundImage: `url('${Pcta2}')` }}
                     >
                         <div className='h-full w-full '
@@ -65,7 +65,7 @@ const PartnersCTA = () => {
                     {/* <img src={Pcta1} alt="" 
             style={{objectFit:"contain"}}
             /> */}
-                    <div className='h-full w-full bg-cover pcta-card-img'
+                    <div className='h-full w-full bg-cover bg-center pcta-card-img'
                         style={{ backgroundImage: `url('${Pcta4}')` }}
                     >
                         <div className='h-full w-full '

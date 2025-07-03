@@ -43,10 +43,10 @@ const InvestLanding = () => {
     const headingText = ""
     return (
         <div
-            className='bg-black h-[1000px] md:h-[135vh] w-full flex justify-center items-center flex-col bg-center bg-cover bg-no-repeat'
+            className='bg-black h-[800px] md:h-[135vh] w-full flex justify-center items-center flex-col bg-center bg-cover bg-no-repeat'
             style={{ backgroundImage: `url("${Bg1}")` }}
         >
-            <div className='basis-[50%] md:basis-[20%] h-full w-[95%] md:w-[70%] flex justify-end md:justify-center items-center flex-col'>
+            <div className='basis-[20%] h-full w-[95%] md:w-[70%] flex justify-center md:justify-center items-center flex-col'>
                 {/* <div className='w-auto  h-auto spotlight-container md:flex md:justify-center md:items-center leading-[normal]'>
                     <h1 className={`text-[3rem] md:text-[5rem] text-white font-[900] text-center spotlight-text ${hovering ? 'hovering' : ''}`}
                         data-text="Investment Strategies"
@@ -63,7 +63,7 @@ const InvestLanding = () => {
                 <p className='paragraph text-center my-[10px]'>At Foinikas, we combine institutional-grade technology with active portfolio management to help you grow and protect wealth—intentionally, not passively. Every strategy is shaped by your goals, guided by research, and managed with care.</p>
                 
             </div>
-            <div className='basis-[50%] md:basis-[55%] h-full w-[90%] md:w-[80%] flex justify-center items-center flex-col'>
+            <div className='basis-[60%] md:basis-[55%] h-full w-[90%] md:w-[80%] flex justify-center items-center flex-col'>
                 <AutoCarousel items={items} count={3} />
                 <Link to={"/book"} className='secondary-btn flex justify-center items-center my-[10px]'>Let's Talk</Link>
             </div>

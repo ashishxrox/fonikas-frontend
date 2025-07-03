@@ -53,7 +53,7 @@ const FeatureLeft = () => {
       <div
         className='h-full w-full md:hidden flex items-center md:items-start justify-evenly flex-col'
       >
-        <h2 className='secondaryTitle'
+        <h2 className='secondaryTitle text-white'
         style={{fontFamily:"Satoshi"}}
         >
           Why Fonikas?

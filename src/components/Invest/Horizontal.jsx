@@ -118,7 +118,7 @@ const HorizontalScroll = () => {
 
 
     return (
-        <div className="app md:block hidden">
+        <div className="app md:block hidden " >
             {/* <div className="first-container">
         <h1>Testing horizontal scrolling w/ three sections</h1>
         <h2>First Container</h2>

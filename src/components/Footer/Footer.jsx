@@ -1,80 +1,112 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Logo from '../../assets/newLogoFooter.png'
 
 
 const Footer = () => {
   return (
-    <div className='h-[950px] md:h-[55vh] w-full bg-cover bg-bottom relative' 
-    
-    // style={{ backgroundImage: `url("${Bg}")` }}
-    
+    <div className='h-auto md:h-[110vh] w-full bg-cover bg-bottom relative'
     >
       <div className='h-full w-full bg-[#66023C] absolute z-[-2]'></div>
-      {/* <div className='absolute h-[35%] w-full bottom-0' >
-        <Waves/>
-      </div> */}
-      <div className='h-full w-full bg-[rgba(0,0,0,0.5)] flex  justify-center items-center flex-col'>
-        <div className='basis-[85%] h-full w-full flex justify-center gap-[40px] items-center flex-col md:flex-row'>
-          <div className='basis-[5%] md:basis-[30%] h-[60%] w-full flex justify-center md:justify-between items-center md:items-start flex-col'>
-            <div className='basis-[50%] h-[80%] w-full hidden md:flex flex-row justify-start items-center gap-[10px]'>
-              <svg width="45" height="41" viewBox="0 0 45 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fillRule="evenodd" clipRule="evenodd" d="M11.486 24.8042L16.1611 19.332L33.2597 39.9353L23.9883 39.869L11.486 24.8042Z" fill="white" />
-                <path fillRule="evenodd" clipRule="evenodd" d="M26.4187 10.5977L43.1357 10.5977L15.3877 23.5977L12.3788 17.1753L26.4187 10.5977Z" fill="white" />
-                <path fillRule="evenodd" clipRule="evenodd" d="M0 7.67426L9.82209 0.974449V0H11.2507H23.8365H44.0871V7.67426H17.3789L17.3789 40.5973H10.3789L10.3789 7.67426H9.82209H0Z" fill="white" />
-              </svg>
-              <h2 className='font-[500] text-[48px] text-white'>FONIKAS</h2>
+      <div className='h-full w-full bg-[rgba(0,0,0,0.5)] flex  justify-end items-center flex-col '>
+        <div className='w-[95%] h-[90%]  flex justify-between items-center flex-col mt-[50px] md:mt-[0]'>
+
+          <div className='basis-[30%] h-full w-full flex justify-between items-center flex-col md:flex-row px-[15px] md:px-0 gap-[20px] md:gap-[0]'>
+            <div className='basis-[24%] h-full w-full flex justify-start items-start flex-col gap-[15px]'>
+              <h5 className='font-[600] text-white text-[1.6rem]'>Company</h5>
+              <ul className='h-[80%] w-full flex justify-start items-start flex-col gap-[10px]'>
+                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <Link className='text-[1.3rem] font-[400]' to={'/about-us'}>About Us</Link>
+                </li>
+                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <Link className='text-[1.3rem] font-[400]' to={'/invest'}>Investment Strategies</Link>
+                </li>
+                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <Link className='text-[1.3rem] font-[400]' to={'/invest/#digital'}>Digital Platform</Link>
+                </li>
+              </ul>
             </div>
-            <div className='basis-[40%] pl-[35px] md:pl-[0px] gap-[15px] md:gap-[0] h-full w-full flex justify-around items-start flex-col'>
-              <p className='paragraph'>Get in touch with us for any queries</p>
-              <Link className='secondary-btn flex justify-center items-center'>Contact Us</Link>
+            <div className='basis-[24%] h-full w-full flex justify-start items-start flex-col gap-[15px]'>
+              <h5 className='font-[600] text-white text-[1.6rem]'>Insights</h5>
+              <ul className='h-[80%] w-full flex justify-start items-start flex-col gap-[10px]'>
+                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <Link className='text-[1.3rem] font-[400]' to={'/insights'}>Market Overview</Link>
+                </li>
+                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <Link className='text-[1.3rem] font-[400]' to={'/insights'}>Economy</Link>
+                </li>
+                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <Link className='text-[1.3rem] font-[400]' to={'/insights'}>Themes</Link>
+                </li>
+                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <Link className='text-[1.3rem] font-[400]' to={'/insights'}>Newsletter</Link>
+                </li>
+              </ul>
+            </div>
+            <div className='basis-[24%] h-full w-full flex justify-start items-start flex-col gap-[15px]'>
+              <h5 className='font-[600] text-white text-[1.6rem]'>Legal</h5>
+              <ul className='h-[80%] w-full flex justify-start items-start flex-col gap-[10px]'>
+                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <Link className='text-[1.3rem] font-[400]'>Privacy Policy</Link>
+                </li>
+                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <Link className='text-[1.3rem] font-[400]'>Terms and Conditions</Link>
+                </li>
+                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <Link className='text-[1.3rem] font-[400]'>Risk Disclosures</Link>
+                </li>
+                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <Link className='text-[1.3rem] font-[400]'>Regulatory Information</Link>
+                </li>
+              </ul>
+            </div>
+            <div className='basis-[24%] h-full w-full flex justify-start items-start flex-col gap-[15px]'>
+              <h5 className='font-[600] text-white text-[1.6rem]'>Contact</h5>
+              <ul className='h-[80%] w-full flex justify-start items-start flex-col gap-[10px]'>
+                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <a className='text-[1.3rem] font-[400]' href="mailto:info@foinikas.com">info@foinikas.com</a>
+                </li>
+                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <a className='text-[1.3rem] font-[400]' href="tel:+35621234567">+356 2123 4567</a>
+                </li>
+
+              </ul>
             </div>
           </div>
-          <div className='h-[2px] md:h-[80%] md:w-[2px] w-[100%] bg-[#fff]'></div>
-          <div className='basis-[55%] h-[70%] w-full flex justify-center items-start gap-[40px] flex-col md:flex-row'>
-            <div className='basis-[25%] pl-[35px] md:pl-[0px] h-full w-full flex justify-start items-start flex-col gap-[10px]'>
-              <h4 className='tertiaryTitle text-white mb-[20px]'>Links</h4>
-              <Link className='paragraph' to={'/'}>Home</Link>
-              <Link className='paragraph' to={'/about-us'}>About</Link>
-              <Link className='paragraph' to={'/insights'}>Insights</Link>
-              <Link className='paragraph' to={'/dashboard'}>Dashboard</Link>
-              <Link className='paragraph' to={'/contact'}>Contact</Link>
-              <Link className='paragraph' to={'/login'}>Login</Link>
-            </div>
-            <div className='basis-[35%] pl-[35px] md:pl-[0px] h-full w-full flex justify-start items-start flex-col gap-[10px]'>
-              <h4 className='tertiaryTitle text-white mb-[20px]'>Contact Information</h4>
-              <Link className='paragraph'>+91 1234567890</Link>
-              <Link className='paragraph'>+91 1234567890</Link>
-              <Link className='paragraph'>+91 1234567890</Link>
-              <Link className='paragraph'>+91 1234567890</Link>
-              <Link className='paragraph'>abc@fonikas.com</Link>
-            </div>
-            <div className='basis-[30%] h-[50%] w-full flex justify-start items-start flex-col'>
-              <h4 className='tertiaryTitle text-white mb-[20px] pl-[35px] md:pl-[0px]'>Connect with Us</h4>
-              <div className='w-full h-[60%] flex justify-evenly items-center flex-row'>
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="white">
-                  <path d="M22.675 0h-21.35C.596 0 0 .597 0 1.333v21.333C0 23.403.596 24 1.325 24h11.483v-9.294H9.691v-3.622h3.117V8.413c0-3.1 1.893-4.788 4.658-4.788 1.325 0 2.463.099 2.796.143v3.24l-1.92.001c-1.505 0-1.797.716-1.797 1.767v2.317h3.594l-.468 3.622h-3.126V24h6.127c.729 0 1.323-.597 1.323-1.333V1.333C24 .597 23.404 0 22.675 0z" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" viewBox="0 0 24 24">
-                  <path d="M7.75 2C4.298 2 2 4.298 2 7.75v8.5C2 19.702 4.298 22 7.75 22h8.5C19.702 22 22 19.702 22 16.25v-8.5C22 4.298 19.702 2 16.25 2h-8.5zm0 2h8.5c2.073 0 3.75 1.677 3.75 3.75v8.5c0 2.073-1.677 3.75-3.75 3.75h-8.5C5.677 20 4 18.323 4 16.25v-8.5C4 5.677 5.677 4 7.75 4zm8.5 1a1 1 0 100 2 1 1 0 000-2zM12 7a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6z" />
-                </svg>
+          <div className='h-[1px] w-full bg-white my-[20px] md:my-[0]'></div>
+          <div className='basis-[52%] h-full w-full flex justify-evenly items-center md:items-start flex-col px-[20px] md:px-[0]'>
+            <p className='font-[400] text-[0.9rem] text-[#d9d9d9]'>For a €250,000 portfolio with ten €25,000 trades annually, portfolios managed on IBKR's platform may reduce total trading-related costs by up to 1.5% per year, or as much as 98% compared to traditional banks. This is based on three core components:</p>
+            <div className='h-auto w-full'>
+              <p className='font-[400] text-[0.9rem] text-[#d9d9d9]'>(1) Commissions: IBKR charges €0.50–€3.75 per trade (as low as 0.0035 EUR/share) versus €25–€50 at banks like BNP Paribas, Credit Suisse, or Deutsche Bank—yielding up to 98% lower trading fees;</p>
+              <p className='font-[400] text-[0.9rem] text-[#d9d9d9]'>(2) Price Impact: IBKR's smart routing reduces estimated slippage to ~0.02% vs ~0.10% at traditional providers;</p>
+              <p className='font-[400] text-[0.9rem] text-[#d9d9d9]'>(3) Custody Fees: IBKR charges zero custody fees on standard portfolios, whereas private banks typically charge 0.20%–0.30% annually.</p>
 
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" viewBox="0 0 24 24">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.038-1.851-3.038-1.854 0-2.137 1.446-2.137 2.939v5.668h-3.554v-11.5h3.414v1.571h.049c.476-.899 1.637-1.849 3.369-1.849 3.602 0 4.268 2.37 4.268 5.455v6.323zM5.337 7.433c-1.144 0-2.07-.927-2.07-2.07 0-1.144.926-2.07 2.07-2.07 1.144 0 2.07.926 2.07 2.07 0 1.143-.926 2.07-2.07 2.07zm1.777 13.019h-3.554v-11.5h3.554v11.5zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
-                </svg>
-
-
-              </div>
             </div>
+            <p className='font-[400] text-[0.9rem] text-[#d9d9d9]'>Combined, these factors lead to total savings of up to €3,750 per year on a €250,000 portfolio.</p>
+            <div className='w-full h-auto'>
+            <p className='font-[600] text-[1rem] text-[#d9d9d9]'>Sources</p>
+            <ul className='ml-[30px]'>
+              <li style={{listStyleType:"disc"}} className='font-[400] text-[0.9rem] text-[#d9d9d9]'>Interactive Brokers Commission Pricing (Europe)</li>
+              <li style={{listStyleType:"disc"}} className='font-[400] text-[0.9rem] text-[#d9d9d9]'>Interactive Brokers Execution Quality</li>
+              <li style={{listStyleType:"disc"}} className='font-[400] text-[0.9rem] text-[#d9d9d9]'>BNP Paribas WM, Credit Suisse PB, Deutsche Bank Wealth Mgmt (fee schedules, 2023–24)</li>
+              <li style={{listStyleType:"disc"}} className='font-[400] text-[0.9rem] text-[#d9d9d9]'>NerdWallet EU Brokerage Comparison (2023–24)</li>
+            </ul>
+            </div>
+            <p className='font-[400] text-[0.9rem] text-[#d9d9d9]'> <span className='font-[600] text-[1rem]'>Disclaimer:</span>  These are best-estimate calculations based on publicly available information as of 2024. Costs may vary depending on account structure, portfolio activity, and negotiated fees. This illustration is not a guarantee of future savings or investment performance. Investors should always consult a qualified advisor.</p>
           </div>
-        </div>
-        <div className=' h-[2px] w-full bg-[#fff]'></div>
-        <div className='basis-[5%] md:basis-[14%] h-full w-[95%] flex justify-between items-center flex-col md:flex-row'>
-          <p className='paragraph'>All right reserved by Fonikas @2024</p>
-          <div className='basis-[50%] h-full w-full flex justify-between items-center flex-row'>
-            <Link className='paragraph'>Site Map</Link>
-            <Link className='paragraph'>Term and Condition</Link>
-            <Link className='paragraph'>Privacy Policy</Link>
-            <Link className='paragraph'>Refund Policy</Link>
+          <div className='h-[1px] w-full bg-white my-[20px] md:my-[0]'></div>
+          <div className='basis-[10%] h-full w-full flex justify-between items-center flex-col md:flex-row '>
+            <div className='basis-[30%] h-full w-full overflow-hidden flex justify-start items-center'
+            >
+              <Link to={"/"} className='h-[100%] overflow-hidden mt-[40px]'>
+                <img src={Logo} className='h-[85px]' alt="" />
+
+              </Link>
+            </div>
+            <div className='basis-[45%] h-full w-full flex justify-between items-center flex-col md:flex-row gap-[15px] md:gap-[0]'>
+              <p className='font-[400] text-[1.3rem] text-[#d9d9d9] text-center'>© 2024 Foinikas Ltd. All rights reserved</p>
+              <p className='font-[400] text-[1.3rem] text-[#d9d9d9]'>Licensed by MFSA | IBIE Custody</p>
+            </div>
           </div>
         </div>
       </div>

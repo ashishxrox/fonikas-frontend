@@ -14,7 +14,7 @@ const AboutMain = ({scroll}) => {
       <OurHeritage/>
       {/* <HoverTiles/> */}
       {/* <SmartTech/> */}
-      <AboutFonikas/>
+      {/* <AboutFonikas/> */}
     </div>
   )
 }

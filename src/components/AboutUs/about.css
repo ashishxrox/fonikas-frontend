@@ -141,12 +141,12 @@
   
   @media screen and (max-width: 1800px){
     .about-card-title{
-      font-size: 0.9rem;
+      font-size: 1.2rem;
     }
 
     .about-card-p{
     
-      font-size: 0.8rem;
+      font-size: 0.9rem;
     }
     
   }

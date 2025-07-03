@@ -145,16 +145,16 @@ const HorizontalScroll = () => {
                         <div className="h-full w-full flex justify-center items-center flex-col ">
                             <div className='w-auto h-auto spotlight-container md:flex md:justify-center md:items-center leading-[normal]'>
                                 <h1 className={`text-[5rem] text-white font-[900] text-center spotlight-text ${hovering ? 'hovering' : ''}`}
-                                    data-text="Digital Platform"
+                                    data-text="Our Platform"
                                     ref={textRef}
                                     onMouseMove={handleMouseMove}
                                     onMouseEnter={() => setHovering(true)}
                                     onMouseLeave={() => setHovering(false)}
-                                    style={{ fontFamily: "Crimson", '--x': coords.x, '--y': coords.y }}
-                                >Digital Platform</h1>
+                                    style={{ fontFamily: "Crimson Pro", '--x': coords.x, '--y': coords.y }}
+                                >Our Platform</h1>
                             </div>
-                            <h3 className="text-xl mt-4">How Foinikas Creates Value</h3>
-                            <h4 className="text-lg mt-2">Built on infrastructure for the world's most demanding investors</h4>
+                            <h3 className="text-2xl mt-4">How We Create Value for Clients: Built on infrastructure for the world’s most demanding investors</h3>
+                            {/* <h4 className="text-lg mt-2">Built on infrastructure for the world’s most demanding investors</h4> */}
                         </div>
                         <img src={ArrowDot} className='absolute flip-horizontal left-[-10px] h-[75%]' alt="" />
 
@@ -183,7 +183,7 @@ const HorizontalScroll = () => {
                                 >Precision Allocation with Fractional Shares</h3>
                                 <p className='paragraph '
                                     style={{ color: "black" }}
-                                >We invest in fractional shares to fine-tune portfolio allocations, allowing every euro to be deployed with surgical precision—especially valuable in thematic, diversified or ESG strategies.</p>
+                                >Allows diversified investing with smaller allocations, reducing capital and transaction drag. We design customized portfolios that align with your specific goals, risk profile, and needs.</p>
                             </div>
                             <img src={WeighScale} className='h-[68%] absolute right-[-5%] bottom-[-7%]' alt="" />
 
@@ -240,7 +240,9 @@ const HorizontalScroll = () => {
                                 >Algorithmic & Smart Order Execution</h3>
                                 <p className='paragraph '
                                     style={{ color: "black" }}
-                                >We use IBKR's SmartRouting and algorithmic execution engine to reduce slippage, improve pricing, and maintain market neutrality during rebalancing—maximizing performance over time.</p>
+                                >Smart order routing and algorithmic order execution engine helps reduce slippage, improve pricing and maintain market neutrality during rebalancing—maximizing performance over time.
+
+                                </p>
                             </div>
                             <img src={Robot} className='h-[40%] absolute right-[7%] top-[0%]' alt="" />
                         </div>
@@ -276,9 +278,9 @@ const HorizontalScroll = () => {
                                 >Portfolio Aggregation & Real-Time Risk Tools</h3>
                                 <p className='paragraph '
                                     style={{ color: "black" }}
-                                >Our platform consolidates all client holdings—including external assets—to provide a single, real-time view of exposure, volatility, factor sensitivity, and stress scenarios. It's the cockpit your wealth deserves</p>
+                                >Our platform consolidates all client holdings to provide a single, real-time view of exposure, volatility, factor sensitivity, and stress scenarios. It's the cockpit your wealth deserves with the custom reporting that goes along.</p>
                             </div>
-                            <img src={Analytics} className='h-[38%] absolute right-[0%] top-[2%]' alt="" />
+                            <img src={Analytics} className='h-[36%] absolute right-[0%] top-[2%]' alt="" />
                         </div>
                     </div>
                 </section>
@@ -303,7 +305,7 @@ const HorizontalScroll = () => {
                                 >Capital Efficiency & Liquidity Access</h3>
                                 <p className='paragraph '
                                     style={{ color: "black" }}
-                                >Through IBKR's margin engine, clients with appropriate profiles can deploy portfolio margining, securities lending, or FX hedging—without needing a private bank.</p>
+                                >Transparent, direct market access pricing—no opaque markup on FX, execution, or custody. For clients with appropriate profiles, we deploy portfolio margining, securities lending, or FX hedging—without needing a private bank.</p>
                             </div>
                             <img src={Cash} className='h-[58%] absolute right-[0%] bottom-[-7%]' alt="" />
 

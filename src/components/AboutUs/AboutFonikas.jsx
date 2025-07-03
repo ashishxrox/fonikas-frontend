@@ -10,7 +10,7 @@ const AboutFonikas = () => {
             style={{ backgroundImage: `url("${BG}")` }}
         >
             <div className='h-[80%] w-[90%] flex justify-between items-center flex-col gap-[20px]'>
-                <div className='basis-[46%] h-full w-full flex justify-start items-center'>
+                {/* <div className='basis-[46%] h-full w-full flex justify-start items-center'>
                     <div className='h-full w-full md:w-[60%] about-card  rounded-[12px] flex justify-between items-center relative'
                         style={{ boxShadow: "2px 2px 5px #000" }}
                     >
@@ -30,7 +30,7 @@ const AboutFonikas = () => {
                             <div className='h-full w-full bg-[rgba(0,0,0,0.3)]'></div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className='basis-[46%] h-full w-full flex justify-end items-center'>
                     <div className='h-full w-full md:w-[60%] about-card  rounded-[12px] flex justify-end items-center relative'
                         style={{ boxShadow: "2px 2px 5px #000" }}
@@ -41,7 +41,9 @@ const AboutFonikas = () => {
                             <div className='h-full w-full bg-[rgba(0,0,0,0.3)]'></div>
                         </div>
                         <div className='md:basis-[70%] h-full w-full px-[25px] md:px-[50px] py-[20px] flex justify-center items-start md:items-end gap-[20px] flex-col'>
-                            <h2 className='titleText'>What we do</h2>
+                            <h2 className='titleText'
+                            style={{fontFamily:"Satoshi"}}
+                            >What we do</h2>
                             <p className='paragraph tex-left md:text-right'>
 
                                 We deliver institutional-grade wealth management to more people through a powerful blend of smart technology, global expertise, and human judgment. We build cost-efficient, adaptive investment strategies that grow with people's lives.

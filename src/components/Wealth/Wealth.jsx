@@ -135,43 +135,33 @@ const Wealth = () => {
 
         <motion.div
           ref={ref}
-          className='basis-[85%] md:basis-[55%] h-auto md:h-[65%] w-full flex justify-between items-center flex-col right-side gap-[25px] md:gap-[0]'
+          className='basis-[85%] md:basis-[55%] h-auto md:h-[65%] w-full flex justify-start items-center flex-col right-side gap-[25px] md:gap-[0]'
           initial='hidden'
           animate={controls}
           variants={fadeUp}
         >
-          <motion.div variants={fadeUp} className='basis-[20%] h-full w-auto md:w-[60%] flex justify-center items-center flex-col gap-[5px] md:gap-[0] mb-[10px] md:mb-[0]'>
-            <AnimatedHeading text="Active Investing" className="secondaryTitle text-white" controls={controls} />
-            <AnimatedHeading text="Intelligent Strategies" className="titleText text-white" controls={controls} />
+          <motion.div variants={fadeUp} className='basis-[15%] h-full w-auto md:w-[60%] flex justify-center items-center flex-col gap-[5px] md:gap-[0] mb-[10px] md:mb-[0]'>
+            <AnimatedHeading text="Wealth Management for Next Generation Investors" className="secondaryTitle text-white text-center" controls={controls} />
+            {/* <AnimatedHeading text="Intelligent Strategies" className="titleText text-white" controls={controls} /> */}
           </motion.div>
 
-          <motion.div variants={fadeUp} className='basis-[45%] h-full w-[90%] flex justify-center items-start flex-col gap-[15px]'>
-            <p className='text-center md:text-justify paragraph'>
-              We believe portfolio management is about building resilient, forward-looking portfolios that align with your long-term goals, evolving risk tolerance, and changing market conditions.
-              By leveraging scientifically supported investment strategies, we move beyond the passive, one-size-fits-all approach and focus on strategic asset allocation, adaptive risk management, and long-term secular trends that drive real wealth creation over time.
+          <motion.div variants={fadeUp} className='basis-[25%] h-full w-[90%] flex justify-center items-start flex-col gap-[15px]'>
+            <p className='text-center md:text-center paragraph'
+            style={{fontFamily: "Satoshi", fontSize:"1.3rem"}}
+            >
+            Built on the world's most trusted trading infrastructure. Your portfolio deserves the same tools used by top institutions.
             </p>
-            <div className='h-auto md:h-[60px] w-[100%] md:w-[350px] flex items-center justify-center flex-row gap-[30px]'>
-
-              <Link to={"/login"} state={{ current: "signup" }} className='secondary-btn flex justify-center items-center'>Get Started</Link>
-              <Link to={'/about-us'} className='secondary-btn flex justify-center items-center'>Learn More</Link>
-            </div>
           </motion.div>
 
-          <motion.div variants={fadeUp} className='basis-[15%] h-full w-full md:w-[90%] flex justify-start items-center flex-row gap-[40px]'>
-            <div className='basis-[32%] md:basis-[30%] h-full w-full flex justify-start items-center flex-col'>
-              <h1 className='font-400 text-[30px] md:text-[42px] text-[#fff] text-center' style={{ textShadow: '2px 2px 4px #000' }}>160+</h1>
-              <p className='paragraph text-center md:text-left'>Global Markets we trade</p>
-            </div>
-            <div className='basis-[32%] basis-[30%] h-full w-full flex justify-start items-center flex-col'>
-              <h1 className='font-400 text-[30px] md:text-[42px] text-[#fff] text-center' style={{ textShadow: '2px 2px 4px #000' }}>160+</h1>
-              <p className='paragraph text-center md:text-left'>Global Markets we trade</p>
-            </div>
-            <div className='basis-[32%] basis-[30%] h-full w-full'>
-              <h1 className='font-400 text-[30px] md:text-[42px] text-[#fff] text-center' style={{ textShadow: '2px 2px 4px #000' }}>S&P A</h1>
-              <p className='paragraph text-center'>Credit rating of investment platform</p>
-            </div>
+          <div className=' basis-[60%] h-full w-full flex justify-center items-center flex-row gap-[80px]'>
+            <div className='basis-[32%] w-full h-full bg-cover bg-center bg-no-repeat rounded-[12px]'
+            style={{backgroundImage:`url("https://play-lh.googleusercontent.com/l6m9l92a4SgtCXGnJX97AXNSSh8eVZPxDLpklXe4QpSE2PGam69wTWzr1sna1fc74no6")`}}
+            ></div>
+             <div className='basis-[32%] w-full h-full bg-cover bg-center bg-no-repeat rounded-[12px]'
+            style={{backgroundImage:`url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ85Xb8fCmIS27wEdtzlScqSVPG2RhqnHDuaQ&s")`}}
+            ></div>
+          </div>
 
-          </motion.div>
         </motion.div>
       </div>
       <div className='h-[750px] w-[90%] flex md:hidden justify-center md:justify-between items-center flex-row'>
@@ -230,39 +220,28 @@ const Wealth = () => {
 
         </div>
         <div
-          className='basis-[85%] md:basis-[55%] h-auto md:h-[65%] w-full flex justify-between items-center flex-col right-side gap-[25px] md:gap-[0]'
+          className='basis-[85%] md:basis-[55%] h-[80%] md:h-[65%] w-full flex justify-center items-center flex-col right-side gap-[25px] md:gap-[0]'
         >
-          <div className='basis-[20%] h-full w-auto md:w-[60%] flex justify-center items-center flex-col gap-[5px] md:gap-[0] mb-[10px] md:mb-[0]'>
+          <div className='basis-[10%] h-full w-auto md:w-[60%] flex justify-center items-center flex-col gap-[5px] md:gap-[0] mb-[10px] md:mb-[0]'>
             
             <h2 className="secondaryTitle text-white">Active Investing</h2>
             <h3 className="titleText text-white">Intelligent Strategies</h3>
   
           </div>
 
-          <div className='basis-[45%] h-full w-[90%] flex justify-center items-start flex-col gap-[15px]'>
+          <div className='basis-[20%] h-full w-full flex justify-center items-start flex-col gap-[15px]'>
             <p className='text-center md:text-justify paragraph'>
-              We believe portfolio management is about building resilient, forward-looking portfolios that align with your long-term goals, evolving risk tolerance, and changing market conditions.
-              By leveraging scientifically supported investment strategies, we move beyond the passive, one-size-fits-all approach and focus on strategic asset allocation, adaptive risk management, and long-term secular trends that drive real wealth creation over time.
+            Built on the world's most trusted trading infrastructure. Your portfolio deserves the same tools used by top institutions.
             </p>
-            <div className='h-auto md:h-[60px] w-[100%] md:w-[350px] flex items-center justify-center flex-row gap-[30px]'>
-              <Link to={"/login"} state={{ current: "signup" }} className='secondary-btn flex justify-center items-center'>Get Started</Link>
-              <Link to={'/about-us'} className='secondary-btn flex justify-center items-center'>Learn More</Link>
-            </div>
           </div>
 
-          <div className='basis-[15%] h-full w-full md:w-[90%] flex justify-start items-center flex-row gap-[40px]'>
-            <div className='basis-[32%] md:basis-[30%] h-full w-full flex justify-start items-center flex-col'>
-              <h1 className='font-400 text-[30px] md:text-[42px] text-[#fff] text-center' style={{ textShadow: '2px 2px 4px #000' }}>160+</h1>
-              <p className='paragraph text-center md:text-left'>Global Markets we trade</p>
-            </div>
-            <div className='basis-[32%] basis-[30%] h-full w-full flex justify-start items-center flex-col'>
-              <h1 className='font-400 text-[30px] md:text-[42px] text-[#fff] text-center' style={{ textShadow: '2px 2px 4px #000' }}>160+</h1>
-              <p className='paragraph text-center md:text-left'>Global Markets we trade</p>
-            </div>
-            <div className='basis-[32%] basis-[30%] h-full w-full'>
-              <h1 className='font-400 text-[30px] md:text-[42px] text-[#fff] text-center' style={{ textShadow: '2px 2px 4px #000' }}>S&P A</h1>
-              <p className='paragraph text-center'>Credit rating of investment platform</p>
-            </div>
+          <div className=' basis-[40%] h-full w-full flex justify-center items-center flex-row gap-[80px]'>
+            <div className='basis-[50%] w-full h-full bg-contain bg-center bg-no-repeat rounded-[12px]'
+            style={{backgroundImage:`url("https://play-lh.googleusercontent.com/l6m9l92a4SgtCXGnJX97AXNSSh8eVZPxDLpklXe4QpSE2PGam69wTWzr1sna1fc74no6")`}}
+            ></div>
+             <div className='basis-[50%] w-full h-full bg-contain bg-center bg-no-repeat rounded-[12px]'
+            style={{backgroundImage:`url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ85Xb8fCmIS27wEdtzlScqSVPG2RhqnHDuaQ&s")`}}
+            ></div>
           </div>
         </div>
 

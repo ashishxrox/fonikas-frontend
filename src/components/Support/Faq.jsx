@@ -2,7 +2,7 @@ import React from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
-import Bg1 from '../../assets/bg1.jpg';
+import Bg1 from '../../assets/bg1Flip.jpg';
 import Euro from '../../assets/euro.png';
 import Accordian from './Accordian';
 import Management from './Management';
@@ -37,14 +37,14 @@ const Faq = () => {
             className='h-auto md:h-[120vh] w-full bg-black bg-cover bg-no-repeat bg-center flex justify-center items-center flex-col gap-[30px] md:gap-[0]'
             style={{ backgroundImage: `url("${Bg1}")` }}
         >
-            <div className='basis-[45%] md:basis-[35%] h-full w-[90%] md:pt-[50px]'>
+            {/* <div className='basis-[45%] md:basis-[35%] h-full w-[90%] md:pt-[50px]'>
                 <Management/>
-            </div>
+            </div> */}
             {/* <div className='basis-[28%] h-full w-[90%] bg-[red] mt-[50px]'>
                 <FeaturesLeftSlide/>
             </div> */}
 
-            <div className='basis-[45%] md:basis-[65%] w-full h-full flex justify-center items-center flex-col'>
+            <div className='basis-[45%] md:basis-[95%] w-full h-full flex justify-center items-center flex-col'>
                 <h3 className='secondaryTitle text-white text-center md:text-left'>Frequently Asked Questions</h3>
                 <div className='w-full md:w-[90%] h-[90%] md:h-[80%] flex justify-between items-center md:items-start md:pt-[60px] flex-col-reverse md:flex-row'>
                     <motion.div
@@ -58,16 +58,16 @@ const Faq = () => {
                         
                         <img src={Euro} alt="" className=' hidden md:block h-[60%]' />
                         <h5 className='text-[20px] font-[700] text-center text-white'>Still no luck? We can help!</h5>
-                        <p className='paragraph text-center'>Contact us and we’ll get back to you as soon as possible.</p>
+                        <p className='paragraph text-center relative bottom-[10px]'>Contact us and we’ll get back to you as soon as possible.</p>
                         <Link to="/" className='flex justify-center items-center primary-btn'>Contact Us</Link>
                     </motion.div>
 
                     <motion.div
                         variants={itemVariants}
-                        className='basis-[71%] h-[75%] md:h-full w-full  flex justify-between items-start flex-col'
+                        className='basis-[71%] h-[75%] md:h-full w-full  flex justify-between items-start flex-col '
                     >
 
-                        <div className='h-[90%] w-full overflow-scroll hide-scrollbar flex justify-center items-center rounded-[12px]'>
+                        <div className='h-[90%] w-full overflow-scroll hide-scrollbar flex justify-center items-center rounded-[12px] md:bg-[rgba(255,255,255,0.05)] '>
                             <Accordian />
                             {/* <div className='h-[90%] w-[90%] bg-[red]'></div> */}
 

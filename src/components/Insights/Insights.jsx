@@ -30,7 +30,9 @@ const Insights = () => {
       >
 
         <div className='h-[85%] w-[90%] flex justify-center items-center flex-col  gap-[30px] mt-[50px]'>
-          <h2 className='titleText mt-[50px] md:mt-[0]'>Fonikas Insights</h2>
+          <h2 className='titleText mt-[50px] md:mt-[0] '
+          style={{fontFamily:"Satoshi", fontSize:"3.2rem"}}
+          >Fonikas Insights</h2>
           <p className='paragraph text-center px-[15%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, neque eaque provident nesciunt animi deserunt quas cupiditate culpa nostrum consequatur magnam facilis in iure. Dolorum molestiae accusamus necessitatibus inventore at?</p>
           {/* <div className='h-[5%] w-full bg-[rgba(255,255,255,0.3)] px-[30px] py-[20px] backdrop-blur-[5px] rounded-[12px] flex justify-between items-center'
           style={{ boxShadow: "3px 3px 25px #000" }}

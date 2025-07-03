@@ -26,13 +26,13 @@ const FeatureLeft = () => {
   return (
     <>
       <motion.div
-        className='h-full w-full hidden md:flex items-center md:items-start justify-evenly flex-col'
+        className='h-full w-full hidden md:flex items-center md:items-center justify-evenly flex-col'
         variants={container}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: false, amount: 0.3 }} // 👈 Re-trigger on every view
       >
-        <motion.h2 className='titleText' variants={fadeUp}>
+        <motion.h2 className='secondaryTitle text-white' variants={fadeUp}>
           Why Fonikas?
         </motion.h2>
 
@@ -53,7 +53,9 @@ const FeatureLeft = () => {
       <div
         className='h-full w-full md:hidden flex items-center md:items-start justify-evenly flex-col'
       >
-        <h2 className='titleText'>
+        <h2 className='secondaryTitle'
+        style={{fontFamily:"Satoshi"}}
+        >
           Why Fonikas?
         </h2>
 

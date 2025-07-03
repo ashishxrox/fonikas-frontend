@@ -66,7 +66,9 @@ const OurFeatures = () => {
                                     zIndex: 4 - i // Set zIndex directly
                                 }}
                             >
-                                <h4 className='tertiaryTitle text-white'>{cardContent[i].title}</h4>
+                                <h4 className='tertiaryTitle text-white'
+                                style={{fontSize:"2rem"}}
+                                >{cardContent[i].title}</h4>
                                 <p className='paragraph'>{cardContent[i].content}</p>
                             </div>
                         ))}

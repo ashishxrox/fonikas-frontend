@@ -80,7 +80,9 @@ const AboutCard = ({ icon, title, desc, subText, image_url }) => {
         {splitText(title, controls)}
       </h4> */}
 
-        <h5 className=' font-[900] text-white about-card-title'>
+        <h5 className=' font-[900] text-white about-card-title'
+        
+        >
           {/* {splitText(subText, controls)} */}
           {subText}
         </h5>

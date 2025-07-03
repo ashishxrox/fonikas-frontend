@@ -14,24 +14,26 @@ const FeaturesLeftSlide = () => {
   const cardStackRef = useRef(null);
 
   const cardData = [{
-    title: "Liquidity Reserve",
+    title: "Liquidity Booster",
     subText: "Cash Allocation",
-    desc: "Maintain quick access to your funds for short-term needs or market opportunities — while still earning competitive returns."
+    desc: "Generate steady, growing income through diversified sources built to beat inflation and banking interest. Perfect for income-focused investors who value predictability over peak returns."
   },
   {
-    title: "Capital Stability",
-    subText: "Fixed Income Investments",
-    desc: "Invest in government-backed securities like U.S. Treasuries to preserve capital and generate consistent income with minimal risk."
-  },
-  {
-    title: "Steady Growth",
+    title: "Resilient Growth",
+    
     subText: "Managed Index Portfolios",
-    desc: "A proven, diversified approach designed for long-term wealth accumulation. We handle the asset allocation and risk management for you."
+    desc: "Stay diversified, liquid, and cost-effective with a portfolio powered by institutional ETF strategies. Designed to flex across life stages and risk levels—your smart core for steady growth"
   },
   {
     title: "Strategic Holdings",
     subText: "Direct Equity Investing",
-    desc: "Take advantage of market trends and company-specific opportunities with actively managed stock picks. Higher volatility, higher reward."
+    
+    desc: "Build focused, long-term wealth through carefully selected, high-conviction stock picks—ideal for any mid-career investor seeking meaningful growth"
+  },
+  {
+    title: "Wealth Scaling",
+    subText: "Thematic Investing",
+    desc: "Capture long-term upside by investing in long-run secular mega trends and innovation. Best suited for early-stage investors willing to take on more risk in exchange for greater potential return over time."
   }
 ]
 
@@ -79,7 +81,7 @@ const FeaturesLeftSlide = () => {
 
   return (
     <div className="overflowX-hidden"
-    style={{overflowX:"hidden"}}
+    style={{overflowX:"hidden", overflowY:"hidden"}}
     >
       {/* Fixed progress indicator (optional) */}
       <div className="fixed top-5 w-full h-2 bg-black z-50"
@@ -89,14 +91,22 @@ const FeaturesLeftSlide = () => {
       <section
         ref={containerRef}
         // className="stacking-cards h-[100vh] w-[100vw] flex items-center justify-center bg-[#FFF8DC] flex-col relative overflowY-hidden"
-        className="stacking-cards h-[100vh] w-[100vw] flex items-center justify-center bg-[#a40b81] flex-col relative overflowY-hidden"
+        // className="stacking-cards h-[100vh] w-[100vw] flex items-center justify-center bg-[#a40b81] flex-col relative overflowY-hidden"
+        className="stacking-cards h-[100vh] w-[100vw] flex items-center justify-center   flex-col relative overflowY-hidden"
         // style={{backgroundImage:`url(${BG})`}}
+        // style={{
+        //   background: "linear-gradient(180deg, #4F012E 0%, #AA0063 100%)"
+        // }}
+
+        style={{
+          background: "linear-gradient(180deg, #4F012E 0%, #8c0663 100%)"
+        }}
       >
 
-        {/* <img src={Airplane} alt=""  className='absolute bottom-[0%] w-[100%]'/> */}
-        <div className='h-[45%] w-[50%] flex justify-center items-center'>
+        <img src={Airplane} alt=""  className='absolute bottom-[-5%] w-[100%]'/>
+        <div className='h-[25%] w-[40%] flex justify-center items-center'>
           <h1 className='titleText text-center'
-          style={{color:"#fff", fontSize:"3.7rem", fontWeight:"200"}}
+          style={{color:"#fff", fontSize:"2.5rem", fontWeight:"500", fontFamily:"Satoshi"}}
           >Align Risk with Strategy Optimize Every Part of Your Portfolio</h1>
         </div>
         <div className="w-full h-[55%] px-[clamp(20px,5vw,80px)]">

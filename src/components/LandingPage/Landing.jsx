@@ -199,6 +199,10 @@ const Landing = () => {
                 <FeaturesLeftSlide/>
                 
             </div>
+
+            <div className='partners-section w-full'>
+                <Partners />
+            </div>
             
             <div className='support-section w-full'>
                 <Support />
@@ -206,9 +210,7 @@ const Landing = () => {
 
             
 
-            <div className='partners-section w-full'>
-                <Partners />
-            </div>
+            
 
             
 

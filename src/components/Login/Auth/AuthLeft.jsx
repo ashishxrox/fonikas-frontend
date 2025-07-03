@@ -3,10 +3,14 @@ import React from 'react'
 const AuthLeft = () => {
     return (
         <div className='h-full w-full flex justify-start items-center px-[50px]'
-            style={{ background: "linear-gradient(to bottom right, #4338ca, #9333ea, #3b82f6)" }}
+            // style={{ background: "linear-gradient(to bottom right, #4338ca, #9333ea, #3b82f6)" }}
+            style={{ background: "linear-gradient(180deg, #4F012E 0%, #AA0063 100%)" }}
+            
         >
             <div className='h-[95%] w-[90%] flex justify-between items-start flex-col '>
-                <h1 className='titleText my-[40px]'>Why Choose Foinikas?</h1>
+                <h1 className='titleText my-[40px]'
+                style={{fontFamily:"Crimson Pro"}}
+                >Why Choose Foinikas?</h1>
                 <div className='h-[65%] w-[100%] flex justify-between items-start flex-col'>
                     <div className='basis-[23%] h-full w-full flex justify-between items-start flex row gap-[20px]'>
                         <div className='h-[40%] w-[10%] bg-[#33415580] rounded-2xl flex justify-center items-center'>

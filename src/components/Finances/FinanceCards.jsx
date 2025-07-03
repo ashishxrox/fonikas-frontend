@@ -12,7 +12,9 @@ const FinanceCards = ({icon, title, desc}) => {
             </div>
             {/* <div className='bg-[red] w-full h-[50%]'></div> */}
 
-            <p className='paragraph'>{title}</p>
+            <p className='paragraph'
+            style={{fontSize:"1.3rem"}}
+            >{title}</p>
             <p className='text-[14px] font-[400] text-white text-center '>{desc}</p>
 
         </div>

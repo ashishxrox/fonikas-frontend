@@ -221,28 +221,30 @@ const Home = () => {
             >
               <div className=' h-auto spotlighth-container hidden md:inline-block md:flex md:justify-center md:items-center leading-[normal]'>
                     <h1 className={` text-white font-[900] text-center spotlight-texth ${hovering ? 'hovering' : ''}`}
-                        data-text="Your Life, Well Invested"
+                        data-text="Your life, well invested"
                         ref={textRef}
                         onMouseMove={handleMouseMove}
                         onMouseEnter={() => setHovering(true)}
                         onMouseLeave={() => setHovering(false)}
-                        style={{ fontFamily: "Crimson", '--x': coords.x, '--y': coords.y }}
-                    >Your Life, Well Invested</h1>
+                        style={{ fontFamily: "Crimson Pro", '--x': coords.x, '--y': coords.y }}
+                    >Your life, well invested</h1>
                 </div>
 
-              <div className='h-[50px] w-auto md:w-[full] relative bottom-[40px]'>
-                <p className='text-center text-white text-[1rem] md:text-[1.2rem] font-[500] px-[15px] mt-[0] md:mt-[50px] md:px-[0]'>
-                  Foinikas helps your wealth grow at every stage of life
+              <div className='h-[80px] w-auto md:w-full relative bottom-[55px]'>
+                <p className='text-center text-white text-[1rem] md:text-[1.3rem] font-[500] px-[15px] mt-[0] md:mt-[50px] md:px-[0]'
+                style={{fontFamily: "Satoshi"}}
+                >
+                  Professionally managed investment portfolios, tailored to life, powered by the best trading technology— so you can invest your time where it matters most
                 </p>
               </div>
 
               <div className='h-auto md:h-[75px] w-auto md:w-[full] flex justify-around items-center flex-row relative'>
                 <div className='basis-[40%] w-[100%] h-auto md:h-[80%] flex justify-center gap-[30px] items-center flex-col md:flex-row'>
-                  <Link ref={buttonRef} to={'/login'} state={{ current: "signup" }} className=' home-btn   flex justify-center items-center'>
-                    Start Investing Today
+                  <Link ref={buttonRef} to={'/login'} state={{ current: "signup" }} className=' secondary-btn   flex justify-center items-center'>
+                    Get Started
                   </Link>
-                  <Link ref={button2Ref} to={'/insights'} className='home-btn flex justify-center items-center'>
-                    View Market Insights
+                  <Link ref={button2Ref} to={'/insights'} className='secondary-btn flex justify-center items-center'>
+                    Learn More
                   </Link>
                 </div>
               </div>

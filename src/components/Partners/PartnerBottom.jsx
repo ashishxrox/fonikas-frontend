@@ -5,7 +5,7 @@ import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
 const PartnerBottom = () => {
-    const heading = "Our goal";
+    const heading = "Why we started Foinikas";
 
     const container = {
         hidden: { opacity: 0 },
@@ -50,7 +50,9 @@ const PartnerBottom = () => {
                 animate={controls}
                 variants={container}
             >
-                <h2 className='titleText text-center'>
+                <h2 className='titleText text-center'
+                    style={{ fontFamily: "Satoshi" }}
+                >
                     {heading.split(' ').map((wordText, index) => (
                         <motion.span
                             key={index}
@@ -63,13 +65,15 @@ const PartnerBottom = () => {
                 </h2>
 
                 <motion.p
-                    className='paragraph text-justify mt-4'
+                    className='paragraph text-justify mt-1'
                     variants={{
                         hidden: { y: 30, opacity: 0 },
                         visible: { y: 0, opacity: 1, transition: { duration: 1, ease: 'easeOut' } },
                     }}
                 >
-                    We believe high-quality investment management shouldn’t be limited by wealth, access or time. Our mission is to make expert advice and affordable institutional-grade tools available to more people – whether you want help building your first portfolio or managing meaningful wealth. We handle the complexity, so you can focus your time on what matters most.
+                    Our founding team spent decades advising entrepreneurs, family offices, and institutional investors at top global institutions. Overtime, we saw a gap: even at the highest levels, innovation was slow, digital tools were outdated, and personalization was limited. We started Foinikas to fix that.
+
+                    We envisioned a firm that blends timeless investing principles with cutting-edge infrastructure—a place where strategy meets simplicity, and where clients don't have to choose between sophistication and accessibility.
                 </motion.p>
             </motion.div>
 

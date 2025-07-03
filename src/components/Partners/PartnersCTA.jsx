@@ -11,9 +11,13 @@ const PartnersCTA = () => {
     return (
         <div className='h-full w-full flex justify-between items-ceter flex-col mb-[50px]'>
             <div className='basis-[27%] md:basis-[37%] h-full w-full flex justify-evenly items-center flex-col gap-[10px]'>
-                <h2 className='titleText text-center md:text-left'>Make Your Money Echo Through Life</h2>
-                <p className='paragraph text-center md:w-[70%]'>Vacation keys, university caps, carefree retirements—whatever milestone is on the horizon, we blend human guidance with forward-thinking tools to amplify every financial ripple</p>
-                <Link to={"/book"} className='home-btn flex justify-center items-center '>Start your Wealth Journey</Link>
+                <h2 className='titleText text-center md:text-left'
+                style={{fontFamily:"Satoshi"}}
+                >Make Your Money Echo Through Life</h2>
+                <p className='paragraph text-center md:w-[70%]'
+                style={{fontSize:"1.3rem"}}
+                >Vacation keys, university caps, carefree retirements—whatever milestone is on the horizon, we blend human guidance with forward-thinking tools to amplify every financial ripple</p>
+                <Link to={"/book"} className='secondary-btn flex justify-center items-center '>Let's Talk</Link>
             </div>
             <div className='basis-[70%] md:basis-[60%] h-full w-full md:bg-[rgba(255,255,255,0.3)] md:backdrop-blur-[5px] rounded-[12px] flex justify-evenly items-center flex-col md:flex-row'
                 // style={{ boxShadow: "2px 2px 5px #000" }}
@@ -29,7 +33,7 @@ const PartnersCTA = () => {
                         style={{background: "linear-gradient(to bottom, rgba(0,0,0,0) 65%, rgba(0,0,0,0.9))"}}
                         ></div>
                     </div>
-                    <p className='absolute z-[1] font-[700] text-[1.125rem] bottom-[20px] left-[20px] text-white'>Family Financial Security</p>
+                    <p className='absolute z-[1] font-[700] text-[1.125rem] bottom-[20px] left-[20px] text-white'>Family</p>
                 </div>
                 <div className='basis-[23%] pcta-card w-full h-[85%] bg-[red] rounded-[12px] relative overflow-hidden'>
                     {/* <img src={Pcta1} alt="" 
@@ -42,7 +46,7 @@ const PartnersCTA = () => {
                         style={{background: "linear-gradient(to bottom, rgba(0,0,0,0) 65%, rgba(0,0,0,0.9))"}}
                         ></div>
                     </div>
-                    <p className='absolute z-[1] font-[700] text-[1.125rem] bottom-[20px] left-[20px] text-white'>Career & Financial Freedom</p>
+                    <p className='absolute z-[1] font-[700] text-[1.125rem] bottom-[20px] left-[20px] text-white'>Career </p>
                 </div>
                 <div className='basis-[23%] pcta-card w-full h-[85%] bg-[red] rounded-[12px] relative overflow-hidden'>
                     {/* <img src={Pcta1} alt="" 
@@ -55,7 +59,7 @@ const PartnersCTA = () => {
                         style={{background: "linear-gradient(to bottom, rgba(0,0,0,0) 65%, rgba(0,0,0,0.9))"}}
                         ></div>
                     </div>
-                    <p className='absolute z-[1] font-[700] text-[1.125rem] bottom-[20px] left-[20px] text-white'>Education Funding</p>
+                    <p className='absolute z-[1] font-[700] text-[1.125rem] bottom-[20px] left-[20px] text-white'>Education </p>
                 </div>
                 <div className='basis-[23%] pcta-card w-full h-[85%] bg-[red] rounded-[12px] relative overflow-hidden'>
                     {/* <img src={Pcta1} alt="" 
@@ -68,7 +72,7 @@ const PartnersCTA = () => {
                         style={{background: "linear-gradient(to bottom, rgba(0,0,0,0) 65%, rgba(0,0,0,0.9))"}}
                         ></div>
                     </div>
-                    <p className='absolute z-[1] font-[700] text-[1.125rem] bottom-[20px] left-[20px] text-white'>Retirement Dreams</p>
+                    <p className='absolute z-[1] font-[700] text-[1.125rem] bottom-[20px] left-[20px] text-white'>Retirement </p>
                 </div>
             </div>
         </div>

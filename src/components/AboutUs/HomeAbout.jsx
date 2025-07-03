@@ -71,12 +71,12 @@ const HomeAbout = () => {
                     style={{ fontFamily: "Inter" }}
                     ref={ref}
                 >
-                    <h2 className="titleText mb-[20px] md:mb-[0] text-center">
+                    {/* <h2 className="titleText mb-[20px] md:mb-[0] text-center">
                         {splitText("About us")}
-                    </h2>
+                    </h2> */}
                     <div className="h-[70%] w-full rounded-[20px] flex justify-start gap-[20px] items-center md:items-center flex-col px-[20px] md:px-[45px] py-[20px] md:py-[40px] bg-[rgba(128,128,128,0.2)] shadow-lg backdrop-blur-[5px]">
                         <h3 className="secondaryTitle text-white text-center">
-                            {splitText("Phoenician Legacy")}
+                            {splitText("Our Story & Values")}
                         </h3>
                         {/* <h4 className="tertiaryTitle text-white">
                             {splitText("Lorem ipsum dolor sit")}

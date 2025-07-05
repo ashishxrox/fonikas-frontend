@@ -4,7 +4,6 @@ import OurHeritage from './AboutPage/OurHeritage'
 import HoverTiles from './HoverTiles/HoverTiles'
 import SmartTech from './AboutPage/SmartTech'
 import AboutLanding from './AboutPage/AboutLanding'
-import AboutFoinikas from './AboutFoinikas'
 
 const AboutMain = ({scroll}) => {
   return (

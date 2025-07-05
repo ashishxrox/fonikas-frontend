@@ -21,9 +21,9 @@ const Footer = () => {
                 <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
                   <Link className='text-[1.3rem] font-[400]' to={'/invest'}>Investment Strategies</Link>
                 </li>
-                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                {/* <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
                   <Link className='text-[1.3rem] font-[400]' to={'/invest/#digital'}>Digital Platform</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className='basis-[24%] h-full w-full flex justify-start items-start flex-col gap-[15px]'>
@@ -32,7 +32,7 @@ const Footer = () => {
                 <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
                   <Link className='text-[1.3rem] font-[400]' to={'/insights'}>Market Overview</Link>
                 </li>
-                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                {/* <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
                   <Link className='text-[1.3rem] font-[400]' to={'/insights'}>Economy</Link>
                 </li>
                 <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
@@ -40,35 +40,35 @@ const Footer = () => {
                 </li>
                 <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
                   <Link className='text-[1.3rem] font-[400]' to={'/insights'}>Newsletter</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className='basis-[24%] h-full w-full flex justify-start items-start flex-col gap-[15px]'>
               <h5 className='font-[600] text-white text-[1.6rem]'>Legal</h5>
               <ul className='h-[80%] w-full flex justify-start items-start flex-col gap-[10px]'>
                 <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
-                  <Link className='text-[1.3rem] font-[400]'>Privacy Policy</Link>
+                  <Link className='text-[1.3rem] font-[400]'>Terms and Privacy Policy</Link>
                 </li>
-                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                {/* <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
                   <Link className='text-[1.3rem] font-[400]'>Terms and Conditions</Link>
-                </li>
-                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                </li> */}
+                {/* <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
                   <Link className='text-[1.3rem] font-[400]'>Risk Disclosures</Link>
-                </li>
-                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                </li> */}
+                {/* <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
                   <Link className='text-[1.3rem] font-[400]'>Regulatory Information</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className='basis-[24%] h-full w-full flex justify-start items-start flex-col gap-[15px]'>
               <h5 className='font-[600] text-white text-[1.6rem]'>Contact</h5>
               <ul className='h-[80%] w-full flex justify-start items-start flex-col gap-[10px]'>
                 <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
-                  <a className='text-[1.3rem] font-[400]' href="mailto:info@foinikas.com">info@foinikas.com</a>
+                  <a className='text-[1.3rem] font-[400]' href="mailto:info@foinikasinvest.com">info@foinikasinvest.com</a>
                 </li>
-                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                {/* <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
                   <a className='text-[1.3rem] font-[400]' href="tel:+35621234567">+356 2123 4567</a>
-                </li>
+                </li> */}
 
               </ul>
             </div>
@@ -103,8 +103,8 @@ const Footer = () => {
 
               </Link>
             </div>
-            <div className='basis-[45%] h-full w-full flex justify-between items-center flex-col md:flex-row gap-[15px] md:gap-[0]'>
-              <p className='font-[400] text-[1.3rem] text-[#d9d9d9] text-center'>© 2024 Foinikas Ltd. All rights reserved</p>
+            <div className='basis-[60%] h-full w-full flex justify-between items-center flex-col md:flex-row gap-[15px] md:gap-[0]'>
+              <p className='font-[400] text-[1.3rem] text-[#d9d9d9] text-center'>© 2024 Foinikas Wealth Management Ltd. All rights reserved</p>
               <p className='font-[400] text-[1.3rem] text-[#d9d9d9]'>Licensed by MFSA | IBIE Custody</p>
             </div>
           </div>

@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import Bg1 from '../../assets/main12.jpg'
 // import card2 from '../../assets/card2.png'
 import Tablet3 from '../../assets/tablet6.png'
+import IBKRLogo from '../../assets/IBKRNewLogo.png'
+import ApexLogo from '../../assets/ApexLogo.png'
 import './wealth.css'
 
 import { motion, useAnimation } from 'framer-motion';
@@ -135,32 +137,51 @@ const Wealth = () => {
 
         <motion.div
           ref={ref}
-          className='basis-[85%] md:basis-[55%] h-auto md:h-[65%] w-full flex justify-start items-center flex-col right-side gap-[25px] md:gap-[0]'
+          className='basis-[85%] md:basis-[55%] h-auto md:h-[70%] w-full flex justify-start items-center flex-col right-side gap-[25px] md:gap-[0]'
           initial='hidden'
           animate={controls}
           variants={fadeUp}
         >
-          <motion.div variants={fadeUp} className='basis-[15%] h-full w-auto md:w-[60%] flex justify-center items-center flex-col gap-[5px] md:gap-[0] mb-[10px] md:mb-[0]'>
+          <motion.div variants={fadeUp} className='basis-[15%] h-full w-auto md:w-[75%] flex justify-center items-center flex-col gap-[5px] md:gap-[0] mb-[10px] md:mb-[0]'>
             <AnimatedHeading text="Wealth Management for Next Generation Investors" className="secondaryTitle text-white text-center" controls={controls} />
             {/* <AnimatedHeading text="Intelligent Strategies" className="titleText text-white" controls={controls} /> */}
           </motion.div>
 
-          <motion.div variants={fadeUp} className='basis-[25%] h-full w-[90%] flex justify-center items-start flex-col gap-[15px]'>
+          <motion.div variants={fadeUp} className='basis-[20%] h-full w-[90%] flex justify-center items-start flex-col gap-[15px]'>
             <p className='text-center md:text-center paragraph'
-            style={{fontFamily: "Satoshi", fontSize:"1.3rem"}}
+              style={{ fontFamily: "Satoshi", fontSize: "1.3rem" }}
             >
-            Built on the world's most trusted trading infrastructure. Your portfolio deserves the same tools used by top institutions.
+              Built on the world's most trusted trading infrastructure. Your portfolio deserves the same tools used by top institutions.
             </p>
           </motion.div>
 
-          <div className=' basis-[60%] h-full w-full flex justify-center items-center flex-row gap-[80px]'>
-            <div className='basis-[32%] w-full h-full bg-cover bg-center bg-no-repeat rounded-[12px]'
-            style={{backgroundImage:`url("https://play-lh.googleusercontent.com/l6m9l92a4SgtCXGnJX97AXNSSh8eVZPxDLpklXe4QpSE2PGam69wTWzr1sna1fc74no6")`}}
-            ></div>
-             <div className='basis-[32%] w-full h-full bg-cover bg-center bg-no-repeat rounded-[12px]'
-            style={{backgroundImage:`url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ85Xb8fCmIS27wEdtzlScqSVPG2RhqnHDuaQ&s")`}}
-            ></div>
-          </div>
+          <motion.div className=' basis-[65%] h-full w-full flex justify-center items-center flex-col mt-[40px] py-[20px] rounded-[12px] bg-[rgba(255,255,255,0.1)] backdrop-blur-[5px]'
+          style={{boxShadow:"2px 2px 15px #000"}}
+          >
+            <AnimatedHeading text="Our Partners" className="secondaryTitle text-white text-center" controls={controls} />
+            <div className='w-full h-[85%] flex justify-center items-center flex-col mt-[20px]'>
+             
+              <div className='basis-[75%] h-full w-full  flex justify-center gap-[80px] items-center flex-row'>
+                <div className='basis-[20%] w-full h-full bg-cover bg-center bg-no-repeat rounded-[12px]'
+                  style={{ backgroundImage: `url("${IBKRLogo}")` }}
+                ></div>
+                <div className='basis-[20%] w-full h-full bg-cover bg-center bg-no-repeat rounded-[12px]'
+                  style={{ backgroundImage: `url("${ApexLogo}")` }}
+                ></div>
+              </div>
+
+              <div className='basis-[20%] h-full w-full flex justify-center items-center flex-row '>
+                  <h5 className='paragraph ml-[40px]'
+                  style={{fontSize:"1.8rem"}}
+                  >IBKR</h5>
+                  <h5 className='paragraph ml-[160px]'
+                  style={{fontSize:"1.8rem"}}
+                  >APEX Group</h5>
+              </div>
+
+            </div>
+
+          </motion.div>
 
         </motion.div>
       </div>
@@ -223,24 +244,24 @@ const Wealth = () => {
           className='basis-[85%] md:basis-[55%] h-[80%] md:h-[65%] w-full flex justify-center items-center flex-col right-side gap-[25px] md:gap-[0]'
         >
           <div className='basis-[10%] h-full w-auto md:w-[60%] flex justify-center items-center flex-col gap-[5px] md:gap-[0] mb-[10px] md:mb-[0]'>
-            
-            <h2 className="secondaryTitle text-white">Active Investing</h2>
-            <h3 className="titleText text-white">Intelligent Strategies</h3>
-  
+
+            <h2 className="secondaryTitle text-white">Wealth Management for Next Generation Investors</h2>
+            {/* <h3 className="titleText text-white">Intelligent Strategies</h3> */}
+
           </div>
 
           <div className='basis-[20%] h-full w-full flex justify-center items-start flex-col gap-[15px]'>
             <p className='text-center md:text-justify paragraph'>
-            Built on the world's most trusted trading infrastructure. Your portfolio deserves the same tools used by top institutions.
+              Built on the world's most trusted trading infrastructure. Your portfolio deserves the same tools used by top institutions.
             </p>
           </div>
 
           <div className=' basis-[40%] h-full w-full flex justify-center items-center flex-row gap-[80px]'>
             <div className='basis-[50%] w-full h-full bg-contain bg-center bg-no-repeat rounded-[12px]'
-            style={{backgroundImage:`url("https://play-lh.googleusercontent.com/l6m9l92a4SgtCXGnJX97AXNSSh8eVZPxDLpklXe4QpSE2PGam69wTWzr1sna1fc74no6")`}}
+              style={{ backgroundImage: `url("${IBKRLogo}")` }}
             ></div>
-             <div className='basis-[50%] w-full h-full bg-contain bg-center bg-no-repeat rounded-[12px]'
-            style={{backgroundImage:`url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ85Xb8fCmIS27wEdtzlScqSVPG2RhqnHDuaQ&s")`}}
+            <div className='basis-[50%] w-full h-full bg-contain bg-center bg-no-repeat rounded-[12px]'
+              style={{ backgroundImage: `url("${ApexLogo}")` }}
             ></div>
           </div>
         </div>

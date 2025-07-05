@@ -10,7 +10,7 @@ const AuthPage = () => {
 
   const [show, setShow] = useState(false)
   return (
-    <div className='h-[1100px] md:h-[115vh] w-full bg-cover bg-center flex justify-between items-end flex-row' style={{ backgroundImage: `url("${Bg}")` }}>
+    <div className='h-[1100px] md:h-[120vh] w-full bg-cover bg-center flex justify-between items-end flex-row' style={{ backgroundImage: `url("${Bg}")` }}>
       {!show && <div className='basis-[35%] h-[95%] w-full hidden md:block'>
         <AuthLeft />
       </div>}

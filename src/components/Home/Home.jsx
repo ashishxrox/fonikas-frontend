@@ -230,7 +230,7 @@ const Home = () => {
                     >Your life, well invested</h1>
                 </div>
 
-              <div className='h-[80px] w-auto md:w-full relative bottom-[55px]'>
+              <div className='h-[80px] w-auto md:w-full relative bottom-[45px]'>
                 <p className='text-center text-white text-[1rem] md:text-[1.3rem] font-[500] px-[15px] mt-[0] md:mt-[50px] md:px-[0]'
                 style={{fontFamily: "Satoshi"}}
                 >

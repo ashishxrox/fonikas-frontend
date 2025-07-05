@@ -198,9 +198,9 @@ const HorizontalScroll = () => {
                                 >Protection</p>
                             </div>
                             <div className='basis-[50%] h-full w-[70%] flex justify-center items-center flex-col gap-[10px]'>
-                                <h3 className='tertiaryTitle text-left mr-[20px]'
+                                <h3 className='tertiaryTitle text-left mr-[150px]'
                                     style={{ color: "black" }}
-                                >Tailored Hedging & Risk Mitigation</h3>
+                                >Tailored Risk Mitigation</h3>
                                 <p className='paragraph '
                                     style={{ color: "black" }}
                                 >We structure client-specific hedging strategies using options, structured notes, and overlays—designed to protect against equity drawdowns, interest rate shocks, or FX risk.</p>
@@ -275,7 +275,7 @@ const HorizontalScroll = () => {
                             <div className='basis-[50%] h-full w-[70%] flex justify-center items-center flex-col gap-[10px]'>
                                 <h3 className='tertiaryTitle'
                                     style={{ color: "black" }}
-                                >Portfolio Aggregation & Real-Time Risk Tools</h3>
+                                >Portfolio & Real-Time Risk Tools</h3>
                                 <p className='paragraph '
                                     style={{ color: "black" }}
                                 >Our platform consolidates all client holdings to provide a single, real-time view of exposure, volatility, factor sensitivity, and stress scenarios. It's the cockpit your wealth deserves with the custom reporting that goes along.</p>
@@ -300,9 +300,9 @@ const HorizontalScroll = () => {
                                 >Efficiency</p>
                             </div>
                             <div className='basis-[50%] h-full w-[70%] flex justify-center items-center flex-col gap-[10px]'>
-                                <h3 className='tertiaryTitle text-left'
+                                <h3 className='tertiaryTitle text-left mr-[140px]'
                                     style={{ color: "black" }}
-                                >Capital Efficiency & Liquidity Access</h3>
+                                >Capital Efficiency</h3>
                                 <p className='paragraph '
                                     style={{ color: "black" }}
                                 >Transparent, direct market access pricing—no opaque markup on FX, execution, or custody. For clients with appropriate profiles, we deploy portfolio margining, securities lending, or FX hedging—without needing a private bank.</p>
@@ -322,9 +322,9 @@ const HorizontalScroll = () => {
                                 >Access</p>
                             </div>
                             <div className='basis-[50%] h-full w-[70%] flex justify-center items-center flex-col gap-[10px]'>
-                                <h3 className='tertiaryTitle text-left mr-[20px]'
+                                <h3 className='tertiaryTitle text-left mr-[190px]'
                                     style={{ color: "black" }}
-                                >Institutional Access, Retail Flexibility</h3>
+                                >Institutional Access</h3>
                                 <p className='paragraph '
                                     style={{ color: "black" }}
                                 >We blend direct indexing, low-cost global ETFs, and access to 40,000+ mutual funds—including no-load and institutional share classes—at costs retail banks can't compete with.</p>

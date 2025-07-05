@@ -109,7 +109,8 @@ const AuthCard = ({setShow}) => {
                 }
             } catch (error) {
                 console.error(error);
-                alert(error.response?.data?.message || "Login failed");
+                
+                alert("Login failed");
                 setDisable(false)
             } finally {
                 setLogLoading(false);
@@ -140,8 +141,9 @@ const AuthCard = ({setShow}) => {
                     // setShow("login");
                 }
             } catch (error) {
-                console.error(error);
-                alert(error.response?.data?.message || "Registration failed");
+                console.error(error.response.data);
+
+                alert("Registration failed");
                 setDisable(false)
             } finally {
                 setSignLoading(false);
@@ -211,11 +213,15 @@ const AuthCard = ({setShow}) => {
                 </div>
             )}
 
-            <button className='home-btn cursor-pointer' disabled={disable} onClick={
+            {!disable && <button className='home-btn cursor-pointer' disabled={disable} onClick={
                 mode === "Signup" ? handleSignup : mode === "Login" ? handleLogin : ""
             }>
                 {mode === "Signup" ? "Create Account" : "Login"}
-            </button>
+            </button>}
+
+            {disable && <button className='home-btn '>
+                Loading
+            </button>}
 
             {mode === "Signup" && (
                 <div className='w-[90%] flex justify-center items-center p-3 bg-[rgba(255,255,255,0.5)] rounded-lg border-gray-200 border'>

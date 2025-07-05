@@ -57,7 +57,9 @@ const Faq = () => {
                     >
                         
                         <img src={Euro} alt="" className=' hidden md:block h-[60%]' />
-                        <h5 className='text-[20px] font-[700] text-center text-white'>Still no luck? We can help!</h5>
+                        <h5 className='text-[1.6rem] font-[700] text-center text-white'
+                        style={{fontFamily:"Satoshi", }}
+                        >How can we help you ?</h5>
                         <p className='paragraph text-center relative bottom-[10px]'>Contact us and we’ll get back to you as soon as possible.</p>
                         <Link to="/" className='flex justify-center items-center primary-btn'>Contact Us</Link>
                     </motion.div>

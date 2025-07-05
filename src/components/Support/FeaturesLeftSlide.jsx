@@ -104,10 +104,10 @@ const FeaturesLeftSlide = () => {
       >
 
         <img src={Airplane} alt=""  className='absolute bottom-[-5%] w-[100%]'/>
-        <div className='h-[25%] w-[40%] flex justify-center items-center'>
+        <div className='h-[25%] w-[60%] flex justify-center items-center'>
           <h1 className='titleText text-center'
           style={{color:"#fff", fontSize:"2.5rem", fontWeight:"500", fontFamily:"Satoshi"}}
-          >Align Risk with Strategy Optimize Every Part of Your Portfolio</h1>
+          >Align Strategy with Life Stage to Optimize Every Aspect of Your Portfolio</h1>
         </div>
         <div className="w-full h-[55%] px-[clamp(20px,5vw,80px)]">
           <div ref={cardStackRef} className="card-stack h-full flex gap-5">

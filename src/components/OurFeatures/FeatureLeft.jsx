@@ -33,7 +33,7 @@ const FeatureLeft = () => {
         viewport={{ once: false, amount: 0.3 }} // 👈 Re-trigger on every view
       >
         <motion.h2 className='secondaryTitle text-white' variants={fadeUp}>
-          Why Fonikas?
+          Why Foinikas?
         </motion.h2>
 
         <motion.p className='paragraph text-center md:text-left' variants={fadeUp}>
@@ -56,7 +56,7 @@ const FeatureLeft = () => {
         <h2 className='secondaryTitle text-white'
         style={{fontFamily:"Satoshi"}}
         >
-          Why Fonikas?
+          Why Foinikas?
         </h2>
 
         <p className='paragraph text-center md:text-left'>

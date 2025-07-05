@@ -6,8 +6,8 @@ const AuthRight = ({setShow}) => {
     return (
         <div className=' h-full w-full flex justify-center items-center gap-[25px] flex-col'>
             <div className='basis-[8%] h-full w-[70%] flex justify-center items-center flex-col'>
-                <h2 className='titleText' style={{fontFamily:"Satoshi"}}>Welcome to Foinikas</h2>
-                <p className='paragraph'>Your journey to smarter investing starts here</p>
+                <h2 className='titleText text-center' style={{fontFamily:"Satoshi"}}>Welcome to Foinikas</h2>
+                <p className='paragraph py-[15px] md:py-0'>Your journey to smarter investing starts here</p>
             </div>
             <div className='w-[90%] md:w-[65%]'>
                 <AuthCard setShow={setShow}/>

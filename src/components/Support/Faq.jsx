@@ -45,7 +45,7 @@ const Faq = () => {
             </div> */}
 
             <div className='basis-[45%] md:basis-[95%] w-full h-full flex justify-center items-center flex-col'>
-                <h3 className='secondaryTitle text-white text-center md:text-left'>Frequently Asked Questions</h3>
+                <h3 className='secondaryTitle text-white text-center md:text-left mb-[30px]'>Frequently Asked Questions</h3>
                 <div className='w-full md:w-[90%] h-[90%] md:h-[80%] flex justify-between items-center md:items-start md:pt-[60px] flex-col-reverse md:flex-row'>
                     <motion.div
                         variants={itemVariants}

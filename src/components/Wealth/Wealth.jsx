@@ -245,24 +245,33 @@ const Wealth = () => {
         >
           <div className='basis-[10%] h-full w-auto md:w-[60%] flex justify-center items-center flex-col gap-[5px] md:gap-[0] mb-[10px] md:mb-[0]'>
 
-            <h2 className="secondaryTitle text-white">Wealth Management for Next Generation Investors</h2>
+            <h2 className="secondaryTitle text-white text-center">Wealth Management for Next Generation Investors</h2>
             {/* <h3 className="titleText text-white">Intelligent Strategies</h3> */}
 
           </div>
 
           <div className='basis-[20%] h-full w-full flex justify-center items-start flex-col gap-[15px]'>
-            <p className='text-center md:text-justify paragraph'>
+            <p className='text-center paragraph'>
               Built on the world's most trusted trading infrastructure. Your portfolio deserves the same tools used by top institutions.
             </p>
           </div>
 
-          <div className=' basis-[40%] h-full w-full flex justify-center items-center flex-row gap-[80px]'>
+          <div className=' basis-[40%] h-full w-full flex justify-center items-center flex-row gap-[80px] relative'>
+            <div className='h-auto w-full absolute top-0'>
+              <h5 className='tertiaryTitle text-white text-center'>Our Partners</h5>
+
+            </div>
             <div className='basis-[50%] w-full h-full bg-contain bg-center bg-no-repeat rounded-[12px]'
               style={{ backgroundImage: `url("${IBKRLogo}")` }}
             ></div>
             <div className='basis-[50%] w-full h-full bg-contain bg-center bg-no-repeat rounded-[12px]'
               style={{ backgroundImage: `url("${ApexLogo}")` }}
             ></div>
+            <div className='h-auto w-[75%] absolute bottom-[25px] flex justify-between items-center flex-row'>
+              <h5 className='paragraph text-white text-center'>IBKR</h5>
+              <h5 className='paragraph text-white text-center'>APEX</h5>
+
+            </div>
           </div>
         </div>
 

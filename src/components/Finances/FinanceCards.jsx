@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FinanceCards = ({icon, title, desc}) => {
+const FinanceCards = ({ icon, title, desc }) => {
     return (
         <div className='h-full w-full flex justify-center gap-[20px] items-center flex-col px-[10px] md:px-[40px] mx-[40px] md:mx-0'>
             <div className='mb-[0] md:mb-[20px]'>
@@ -12,8 +12,12 @@ const FinanceCards = ({icon, title, desc}) => {
             </div>
             {/* <div className='bg-[red] w-full h-[50%]'></div> */}
 
-            <p className='paragraph'
-            style={{fontSize:"1.3rem"}}
+            <p className='paragraph hidden md:block'
+                style={{ fontSize: "1.3rem" }}
+            >{title}</p>
+
+            <p className='paragraph block md:hidden'
+                style={{ fontSize: "0.9rem" }}
             >{title}</p>
             <p className='text-[14px] font-[400] text-white text-center '>{desc}</p>
 

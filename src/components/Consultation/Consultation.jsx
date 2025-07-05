@@ -44,10 +44,10 @@ const Consultation = () => {
         style={{ backgroundImage: `url("${BG}")` }}
       >
 
-        <div className='h-[80%] w-[65%] bg-[rgba(255,255,255,0.2)] backdrop-blur-[20px] mt-[50px] flex justify-center items-center flex-col rounded-[12px]'
-          style={{ boxShadow: "5px 5px 15px #000" }}
+        <div className='h-[80%] w-full md:w-[65%] mt-[50px] flex justify-center items-center flex-col rounded-[12px]'
+          // style={{ boxShadow: "5px 5px 15px #000" }}
         >
-          <h2 className="secondaryTitle text-white">Book a Free Consultation</h2>
+          <h2 className="secondaryTitle text-white text-center">Book a Free Consultation</h2>
           
           {/* {!showScheduler ? (
             <form onSubmit={handleSubmit} className="space-y-4">
@@ -75,7 +75,7 @@ const Consultation = () => {
               </button>
             </form>
           ) : ( */}
-            <div className=" w-full h-[90%]  overflow-none flex justify-center items-center">
+            <div className=" w-full  md:h-[90%]  overflow-none flex justify-center items-center">
               <InlineWidget className='w-full'
                 url="https://calendly.com/hellofoinikas/30min" // Replace with your actual Calendly link
                 // prefill={{

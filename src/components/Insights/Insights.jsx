@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Bg1 from '../../assets/bg1.jpg';
 import Bg2 from '../../assets/main12.jpg'
 import LineChart from './Graphs/LineChart';
@@ -12,6 +12,7 @@ const Insights = () => {
 
   const [insight, setInsights] = useState("Market")
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const token = localStorage.getItem("token");
@@ -31,7 +32,7 @@ const Insights = () => {
           <p className="flex justify-around items-center flex-col gap-[15px] tertiaryTitle text-white"
 
           >
-            Please login .
+            Please login.
 
           </p>
           <Link to={"/login"} state={{ from: location }} replace className='primary-btn flex justify-center items-center'>Login</Link>
@@ -45,9 +46,9 @@ const Insights = () => {
         >
 
           <div className='h-[85%] w-[90%] flex justify-center items-center flex-col  gap-[30px] mt-[50px]'>
-            <h2 className='titleText mt-[50px] md:mt-[0] '
+            <h2 className='titleText mt-[50px] md:mt-[0] text-center'
               style={{ fontFamily: "Satoshi", fontSize: "3.2rem" }}
-            >Fonikas Insights</h2>
+            >Foinikas Insights</h2>
             <p className='paragraph text-center px-[15%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, neque eaque provident nesciunt animi deserunt quas cupiditate culpa nostrum consequatur magnam facilis in iure. Dolorum molestiae accusamus necessitatibus inventore at?</p>
             {/* <div className='h-[5%] w-full bg-[rgba(255,255,255,0.3)] px-[30px] py-[20px] backdrop-blur-[5px] rounded-[12px] flex justify-between items-center'
           style={{ boxShadow: "3px 3px 25px #000" }}

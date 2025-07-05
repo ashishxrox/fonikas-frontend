@@ -5,7 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-const AuthCard = ({setShow}) => {
+const AuthCard = ({ setShow }) => {
 
     const location = useLocation();
     const navigate = useNavigate();
@@ -26,7 +26,7 @@ const AuthCard = ({setShow}) => {
     const from = location.state?.from?.pathname || "/insights";
     const current = location.state?.current || ""
 
-    useEffect(()=>{
+    useEffect(() => {
         setErrors({});
         setForm({
             firstName: '',
@@ -35,7 +35,7 @@ const AuthCard = ({setShow}) => {
             password: '',
             confirmPassword: ''
         })
-    },[mode])
+    }, [mode])
 
     const handleChange = (e) => {
         setForm({ ...form, [e.target.name]: e.target.value });
@@ -83,11 +83,11 @@ const AuthCard = ({setShow}) => {
     };
 
 
-   
+
 
     const handleLogin = async (e) => {
         e.preventDefault();
-        
+
         if (validate()) {
             setLogLoading(true);
             setDisable(true)
@@ -108,19 +108,24 @@ const AuthCard = ({setShow}) => {
                     setDisable(false)
                 }
             } catch (error) {
-                console.error(error);
-                
-                alert("Login failed");
+                // console.error(error);
+                // Extract message safely from error response
+                let message = "Login failed";
+                if (error.response && error.response.data && error.response.data.message) {
+                    message = error.response.data.message;
+                }
+
+                alert(message);
                 setDisable(false)
             } finally {
                 setLogLoading(false);
-                
+
             }
         }
     };
     const handleSignup = async (e) => {
         e.preventDefault();
-        
+
         if (validate()) {
             setSignLoading(true);
             setDisable(true)
@@ -143,7 +148,13 @@ const AuthCard = ({setShow}) => {
             } catch (error) {
                 console.error(error.response.data);
 
-                alert("Registration failed");
+                // Extract message safely from error response
+                let message = "Login failed";
+                if (error.response && error.response.data && error.response.data.message ) {
+                    message = error.response.data.message;
+                }
+
+                alert(message);
                 setDisable(false)
             } finally {
                 setSignLoading(false);
@@ -151,13 +162,13 @@ const AuthCard = ({setShow}) => {
         }
     };
 
-    useEffect(()=>{
-            if(current === "signup"){
-                setMode("Signup")
-            }else if(current === "login"){
-                setMode("Login")
-            }
-        },[current])
+    useEffect(() => {
+        if (current === "signup") {
+            setMode("Signup")
+        } else if (current === "login") {
+            setMode("Login")
+        }
+    }, [current])
 
     return (
         <div className='h-auto w-full bg-[red] bg-[rgba(255,255,255,0.5)] backdrop-blur-[10px] p-[20px] rounded-[12px] flex justify-center items-center flex-col gap-[25px]' style={{ boxShadow: "2px 2px 5px #000" }}>
@@ -208,7 +219,7 @@ const AuthCard = ({setShow}) => {
             {mode === "Login" && (
                 <div className='w-[90%] flex justify-end items-center'>
                     <p className='text-[#66023C] font-[500] text-[18px] hover:underline cursor-pointer'
-                    onClick={()=>{setShow(true)}}
+                        onClick={() => { setShow(true) }}
                     >Forgot your password?</p>
                 </div>
             )}

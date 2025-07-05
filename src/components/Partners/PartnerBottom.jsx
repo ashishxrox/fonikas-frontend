@@ -50,7 +50,21 @@ const PartnerBottom = () => {
                 animate={controls}
                 variants={container}
             >
-                <h2 className='titleText text-center'
+                <h2 className='titleText text-center hidden md:block'
+                    style={{ fontFamily: "Satoshi" }}
+                >
+                    {heading.split(' ').map((wordText, index) => (
+                        <motion.span
+                            key={index}
+                            variants={word}
+                            className='inline-block mx-2'
+                        >
+                            {wordText}
+                        </motion.span>
+                    ))}
+                </h2>
+
+                <h2 className='tertiaryTitle text-white text-center md:hidden block mb-[10px]'
                     style={{ fontFamily: "Satoshi" }}
                 >
                     {heading.split(' ').map((wordText, index) => (

@@ -10,12 +10,15 @@ import Pcta4 from '../../assets/photos/retire.jpg'
 const PartnersCTA = () => {
     return (
         <div className='h-full w-full flex justify-between items-ceter flex-col mb-[50px]'>
-            <div className='basis-[27%] md:basis-[37%] h-full w-full flex justify-evenly items-center flex-col gap-[10px]'>
+            <div className='basis-[28%] md:basis-[37%] h-full w-full flex justify-evenly items-center flex-col gap-[10px]'>
                 <h2 className='titleText text-center md:text-left'
                 style={{fontFamily:"Satoshi"}}
                 >Make Your Money Echo Through Life</h2>
-                <p className='paragraph text-center md:w-[70%]'
+                <p className='paragraph text-center md:w-[70%] hidden md:block'
                 style={{fontSize:"1.3rem"}}
+                >Vacation keys, university caps, carefree retirements—whatever milestone is on the horizon, we blend human guidance with forward-thinking tools to amplify every financial ripple</p>
+                <p className='paragraph text-center md:w-[70%] block md:hidden'
+                style={{fontSize:"1rem"}}
                 >Vacation keys, university caps, carefree retirements—whatever milestone is on the horizon, we blend human guidance with forward-thinking tools to amplify every financial ripple</p>
                 <Link to={"/book"} className='secondary-btn flex justify-center items-center '>Let's Talk</Link>
             </div>

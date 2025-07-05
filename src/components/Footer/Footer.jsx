@@ -103,7 +103,7 @@ const Footer = () => {
 
               </Link>
             </div>
-            <div className='basis-[60%] h-full w-full flex justify-between items-center flex-col md:flex-row gap-[15px] md:gap-[0]'>
+            <div className='basis-[60%] h-full w-full flex justify-between items-center mt-[20px] flex-col md:flex-row gap-[15px] md:gap-[0]'>
               <p className='font-[400] text-[1.3rem] text-[#d9d9d9] text-center'>© 2024 Foinikas Wealth Management Ltd. All rights reserved</p>
               <p className='font-[400] text-[1.3rem] text-[#d9d9d9]'>Licensed by MFSA | IBIE Custody</p>
             </div>

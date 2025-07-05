@@ -4,7 +4,7 @@ import BG from '../../assets/main12.jpg'
 import AfBg1 from '../../assets/afBg1.avif'
 import AfBg2 from '../../assets/afBg2.jpg'
 
-const AboutFonikas = () => {
+const AboutFoinikas = () => {
     return (
         <div className='h-[900px] md:h-[120vh] w-full bg-cover bg-center flex justify-center items-center '
             style={{ backgroundImage: `url("${BG}")` }}
@@ -60,4 +60,4 @@ const AboutFonikas = () => {
     )
 }
 
-export default AboutFonikas
+export default AboutFoinikas

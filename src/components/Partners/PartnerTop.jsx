@@ -64,7 +64,7 @@ const PartnerTop = () => {
                                     },
                                 }}
                             >
-                                {`Fonikas Partnership with IBKR`
+                                {`Foinikas Partnership with IBKR`
                                     .split(' ')
                                     .map((word, index) => (
                                         <motion.span
@@ -147,7 +147,7 @@ const PartnerTop = () => {
                 >
                     <div className="basis-[30%] h-full w-full  flex justify-start items-end">
                         <div className="flex flex-wrap justify-center md:justify-start">
-                            {`Fonikas Partnership with IBKR`
+                            {`Foinikas Partnership with IBKR`
                                 .split(' ')
                                 .map((word, index) => (
                                     <span

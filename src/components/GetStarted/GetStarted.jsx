@@ -7,7 +7,7 @@
 // const GetStarted = () => {
 //   return (
 //     <div className='h-[100vh] w-full bg-cover bg-center flex justify-center items-center flex-col' style={{ backgroundImage: `url("${Bg}")` }}>
-//       <h2 className='secondaryTitle text-white'>Get Started with Fonikas</h2>
+//       <h2 className='secondaryTitle text-white'>Get Started with Foinikas</h2>
 //       <p className='paragraph'>Join thousands of investors who Trust us with their Financial Future</p>
 //       <div className='h-[65%] w-[90%]  mt-[30px] flex justify-between items-center flex-row'>
 //         <div className='basis-[40%] h-full w-full bg-[#66023C80] flex justify-evenly items-start flex-col shadow-lg rounded-[12px] px-[40px] py-[25px]'>
@@ -62,7 +62,7 @@
 
 //           </ul>
 //           <div className='h-[20%] w-full flex flex-col gap-[10px] justify-center'>
-//             <h5 className='paragraph'>How can Fonikas help you?</h5>
+//             <h5 className='paragraph'>How can Foinikas help you?</h5>
 //             <Link to={"/contact"} className="secondary-btn flex justify-center items-center">Contact Us</Link>
 //           </div>
 //         </div>

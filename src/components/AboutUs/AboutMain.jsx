@@ -4,7 +4,7 @@ import OurHeritage from './AboutPage/OurHeritage'
 import HoverTiles from './HoverTiles/HoverTiles'
 import SmartTech from './AboutPage/SmartTech'
 import AboutLanding from './AboutPage/AboutLanding'
-import AboutFonikas from './AboutFonikas'
+import AboutFoinikas from './AboutFoinikas'
 
 const AboutMain = ({scroll}) => {
   return (
@@ -14,7 +14,7 @@ const AboutMain = ({scroll}) => {
       <OurHeritage/>
       {/* <HoverTiles/> */}
       {/* <SmartTech/> */}
-      {/* <AboutFonikas/> */}
+      {/* <AboutFoinikas/> */}
     </div>
   )
 }

@@ -65,19 +65,19 @@ function App() {
   useEffect(() => {
     // Customize the title based on the route
     if (location.pathname === '/') {
-      document.title = 'Fonikas'
+      document.title = 'Foinikas'
     } else if (location.pathname === '/about-us') {
-      document.title = 'Fonikas | About Us'
+      document.title = 'Foinikas | About Us'
     } else if(location.pathname === '/insights'){
-      document.title = 'Fonikas | Insights'
+      document.title = 'Foinikas | Insights'
     }else if(location.pathname === '/dashboard'){
-      document.title = 'Fonikas | Dashboard'
+      document.title = 'Foinikas | Dashboard'
     }else if(location.pathname === '/contact'){
-      document.title = 'Fonikas | Contact'
+      document.title = 'Foinikas | Contact'
     }else if(location.pathname === '/get-started'){
-      document.title = 'Fonikas | Get Started'
+      document.title = 'Foinikas | Get Started'
     }else if(location.pathname === '/login'){
-      document.title = 'Fonikas | Login'
+      document.title = 'Foinikas | Login'
     }
   }, [location])
 

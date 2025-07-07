@@ -9,7 +9,7 @@ import Pcta4 from '../../assets/photos/retire.jpg'
 
 const PartnersCTA = () => {
     return (
-        <div className='h-full w-full flex justify-between items-ceter flex-col mb-[50px]'>
+        <div className='h-full w-full flex justify-between items-center flex-col '>
             <div className='basis-[28%] md:basis-[37%] h-full w-full flex justify-evenly items-center flex-col gap-[10px]'>
                 <h2 className='titleText text-center md:text-left'
                 style={{fontFamily:"Satoshi"}}

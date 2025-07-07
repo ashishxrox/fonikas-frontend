@@ -24,6 +24,7 @@ import Invest from './components/Invest/Invest'
 import AuthPage from './components/Login/AuthPage'
 import ResetPassword from './components/Login/Auth/ResetPassword'
 import FeatureSlideLeft from './components/Support/FeaturesLeftSlide'
+import Privacy from './components/Privacy/Privacy'
 
 
 function App() {
@@ -122,6 +123,7 @@ return (
           <Route path='/invest' element={<Invest/>} />
           <Route path='/reset-password/:token' element={<ResetPassword/>} />
           <Route path='/slide' element={<FeatureSlideLeft/>} />
+          <Route path='/privacy' element={<Privacy/>} />
 
           {/* Add more routes as needed */}
         </Routes>

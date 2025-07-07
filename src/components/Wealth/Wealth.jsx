@@ -142,12 +142,12 @@ const Wealth = () => {
           animate={controls}
           variants={fadeUp}
         >
-          <motion.div variants={fadeUp} className='basis-[15%] h-full w-auto md:w-[75%] flex justify-center items-center flex-col gap-[5px] md:gap-[0] mb-[10px] md:mb-[0]'>
+          <motion.div variants={fadeUp} className='basis-[15%]  h-full w-auto md:w-[75%] flex justify-center items-center flex-col gap-[5px] md:gap-[0] mb-[10px] md:mb-[0]'>
             <AnimatedHeading text="Wealth Management for Next Generation Investors" className="secondaryTitle text-white text-center" controls={controls} />
             {/* <AnimatedHeading text="Intelligent Strategies" className="titleText text-white" controls={controls} /> */}
           </motion.div>
 
-          <motion.div variants={fadeUp} className='basis-[20%] h-full w-[90%] flex justify-center items-start flex-col gap-[15px]'>
+          <motion.div variants={fadeUp} className='basis-[20%]  mt-[30px] h-full w-[90%] flex justify-center items-start flex-col gap-[15px]'>
             <p className='text-center md:text-center paragraph'
               style={{ fontFamily: "Satoshi", fontSize: "1.3rem" }}
             >

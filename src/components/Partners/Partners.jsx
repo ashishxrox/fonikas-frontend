@@ -11,7 +11,7 @@ import PartnersCTA from './PartnersCTA'
 const Partners = () => {
   return (
     <div className='h-[1500px] md:h-[120vh] w-full flex justify-center items-center bg-black bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url("${Bg1}")` }}>
-      <div className='h-full w-[90%] flex justify-start items-center flex-col gap-[35px]'>
+      <div className='h-full w-[90%] flex justify-center items-center flex-col gap-[35px]'>
         {/* <div className='basis-[20%] md:basis-[35%] h-full w-full rounded-[12px]  flex justify-around items-center flex-col px-[20px] md:px-[50px]'>
           <PartnerTop />
         </div> */}

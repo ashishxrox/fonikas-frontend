@@ -22,23 +22,7 @@ const Insights = () => {
   }, []);
 
   return (
-    <>
-
-      {!isLoggedIn && <div className='bg-black h-[100vh]  w-full flex justify-center items-center flex-col gap-[20px] bg-center bg-cover bg-no-repeat'
-        style={{ backgroundImage: `url("${Bg1}")` }}>
-        <div className='w-[80%] md:w-[40%] h-[30%] flex justify-center items-center gap-[20px] flex-col rounded-[12px] bg-[rgba(255,255,255,0.3)] backdrop-blur-[5px]'
-          style={{ boxShadow: "2px 5px 15px #000" }}
-        >
-          <p className="flex justify-around items-center flex-col gap-[15px] tertiaryTitle text-white"
-
-          >
-            Please login.
-
-          </p>
-          <Link to={"/login"} state={{ from: location }} replace className='primary-btn flex justify-center items-center'>Login</Link>
-        </div>
-      </div>}
-     {isLoggedIn && <div className='bg-black'>
+    <div className='bg-black'>
 
         <div
           className='bg-black h-auto md:h-[175vh] w-full flex justify-center items-center flex-col gap-[20px] bg-center bg-cover bg-no-repeat'
@@ -49,7 +33,7 @@ const Insights = () => {
             <h2 className='titleText mt-[50px] md:mt-[0] text-center'
               style={{ fontFamily: "Satoshi", fontSize: "3.2rem" }}
             >Foinikas Insights</h2>
-            <p className='paragraph text-center px-[15%]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, neque eaque provident nesciunt animi deserunt quas cupiditate culpa nostrum consequatur magnam facilis in iure. Dolorum molestiae accusamus necessitatibus inventore at?</p>
+            <p className='paragraph text-center px-[15%]'>Stay ahead with expert analysis and curated insights into the evolving financial landscape. Our team distills key trends, policy shifts, and economic signals.</p>
             {/* <div className='h-[5%] w-full bg-[rgba(255,255,255,0.3)] px-[30px] py-[20px] backdrop-blur-[5px] rounded-[12px] flex justify-between items-center'
           style={{ boxShadow: "3px 3px 25px #000" }}
         >
@@ -67,12 +51,17 @@ const Insights = () => {
           </div>
 
         </div> */}
+         {!isLoggedIn && <div className='absolute z-[9] bg-[rgba(255,255,255,0.1)] backdrop-blur-[5px] h-[100vh] md:h-[1510px] w-full rounded-[12px] flex justify-center items-center mt-[115%]'>
+              <h3 className='tertiaryTitle text-[#9932CC] bg-white px-[40px] py-[20px] rounded-[12px]'
+                style={{ boxShadow: "5px 5px 15px #000" }}
+              >Login to See</h3>
+            </div>}
             <div className='h-[85%] w-full flex justify-between items-center flex-col'>
               <div className='basis-[100%] h-full w-full flex justify-between items-start flex-col md:flex-row'>
                 <div className='basis-[57%] h-full w-full  flex justify-start  items-center flex-col gap-[15px]'>
                   <div className="basis-[20%] h-full w-full flex justify-center items-start gap-[15px] flex-col">
                     <h3 className='secondaryTitle text-white'>{insight} Overview</h3>
-                    <p className='paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorum dicta qui alias sit at fuga temporibus eum voluptatibus! Quos dolorum qui quas maxime!</p>
+                    <p className='paragraph'>Track the pulse of global markets with our concise summaries and strategic takeaways. From equities and currencies to energy and tech, we highlight what matters most and why it’s moving now.</p>
                   </div>
                   <div className='basis-[20%] h-full w-full flex justify-center items-center bg-[rgba(255,255,255,0.1)] backdrop-blur-[5px] rounded-[12px]'
                     style={{ boxShadow: "3px 3px 25px #000" }}
@@ -93,11 +82,7 @@ const Insights = () => {
 
                 </div>
                 <div className='basis-[40%] h-[60%] mt-[20px] md:mt-[0] w-full flex justify-between items-center flex-col relative overflow-hidden'>
-                  {!isLoggedIn && <div className='absolute z-[9] bg-[rgba(255,255,255,0.2)] backdrop-blur-[20px] h-full w-full rounded-[12px] flex justify-center items-center'>
-                    <h3 className='tertiaryTitle text-[#9932CC] bg-white px-[40px] py-[20px] rounded-[12px]'
-                      style={{ boxShadow: "5px 5px 15px #000" }}
-                    >Login to See</h3>
-                  </div>}
+                  
                   <div className=' md:basis-[100%] overflow-hidden h-full w-full px-[30px] py-[20px] bg-[rgba(255,255,255,0.1)] backdrop-blur-[5px] rounded-[12px]'
                     style={{ boxShadow: "3px 3px 25px #000" }}
                   >
@@ -125,12 +110,13 @@ const Insights = () => {
         <div className='bg-black h-auto md:h-[105vh] mt-[40px] md:mt-[0] flex justify-center items-center bg-center gap-[40px] bg-cover bg-no-repeat flex-col'
           style={{ backgroundImage: `url("${Bg2}")` }}
         >
-          <div className=' md:basis-[40%] h-full w-[90%] flex justify-between items-center flex-col md:flex-row gap-[20px] md:gap-[0] relative'>
-            {!isLoggedIn && <div className='absolute z-[9] bg-[rgba(255,255,255,0.1)] backdrop-blur-[5px] h-full w-full rounded-[12px] flex justify-center items-center'>
-              <h3 className='tertiaryTitle text-[#9932CC] bg-white px-[40px] py-[20px] rounded-[12px]'
+          {!isLoggedIn && <div className='absolute z-[9] bg-[rgba(255,255,255,0.1)] backdrop-blur-[5px] h-[250vh] md:h-full w-full rounded-[12px] flex justify-center items-center'>
+              {/* <h3 className='tertiaryTitle text-[#9932CC] bg-white px-[40px] py-[20px] rounded-[12px]'
                 style={{ boxShadow: "5px 5px 15px #000" }}
-              >Login to See</h3>
+              >Login to See</h3> */}
             </div>}
+          <div className=' md:basis-[40%] h-full w-[90%] flex justify-between items-center flex-col md:flex-row gap-[20px] md:gap-[0] relative'>
+           
             <div className='basis-[24%]  bg-[rgba(255,255,255,0.3)]  hover:bg-[#c8bdf45c] backdrop-blur-[5px] h-[80%] w-full rounded-[12px] flex justify-center items-center'
               style={{ boxShadow: "2px 5px 10px #000", transition: "0.5s" }}
             >
@@ -155,17 +141,11 @@ const Insights = () => {
           <div className='basis-[50%] h-full w-[90%] relative bg-[rgba(255,255,255,0.1)] backdrop-blur-[5px] rounded-[12px]  mb-[80px] p-[2]'
             style={{ boxShadow: "5px 5px 15px #000" }}
           >
-            {!isLoggedIn && <div className='absolute z-[9] bg-[rgba(255,255,255,0.1)] backdrop-blur-[5px] h-full w-full rounded-[12px] flex justify-center items-center'>
-              <h3 className='tertiaryTitle text-[#9932CC] bg-white px-[40px] py-[20px] rounded-[12px]'
-                style={{ boxShadow: "5px 5px 15px #000" }}
-              >Login to See</h3>
-            </div>}
+           
             <SectorPerformanceGrid />
           </div>
         </div>
-      </div>}
-
-    </>
+      </div>
   )
 }
 

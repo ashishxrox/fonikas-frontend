@@ -217,7 +217,7 @@ const Home = () => {
           <div className='w-[90%] h-full hidden md:flex justify-between items-end flex-row'>
             <div
               ref={movingTitleRef}
-              className='basis-[55%] h-[90%] w-full flex justify-center items-center flex-col moving-title relative top-[-20%] left-[22%]'
+              className='basis-[55%] h-[90%] w-full flex justify-center items-center gap-[25px] flex-col moving-title relative top-[-20%] left-[22%]'
             >
               <div className=' h-auto spotlighth-container hidden md:inline-block md:flex md:justify-center md:items-center leading-[normal]'>
                     <h1 className={` text-white font-[900] text-center spotlight-texth ${hovering ? 'hovering' : ''}`}

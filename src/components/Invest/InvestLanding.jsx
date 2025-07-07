@@ -46,7 +46,7 @@ const InvestLanding = () => {
             className='bg-black h-[800px] md:h-[135vh] w-full flex justify-center items-center flex-col bg-center bg-cover bg-no-repeat'
             style={{ backgroundImage: `url("${Bg1}")` }}
         >
-            <div className='basis-[20%] h-full w-[95%] md:w-[70%] flex justify-center md:justify-center items-center flex-col'>
+            <div className='basis-[20%] h-full w-[95%] md:w-[70%] gap-[20px] flex justify-center md:justify-center items-center flex-col'>
                 {/* <div className='w-auto  h-auto spotlight-container md:flex md:justify-center md:items-center leading-[normal]'>
                     <h1 className={`text-[3rem] md:text-[5rem] text-white font-[900] text-center spotlight-text ${hovering ? 'hovering' : ''}`}
                         data-text="Investment Strategies"

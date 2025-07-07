@@ -75,14 +75,16 @@ const Consultation = () => {
               </button>
             </form>
           ) : ( */}
-            <div className=" w-full  md:h-[90%]  overflow-none flex justify-center items-center">
+            <div className=" w-[80%]  h-auto  mt-[40px] overflow-none flex justify-center items-center bg-[rgba(255,255,255,0.1)] rounded-[12px] backdrop-blur-[10px] py-[20px]"
+            style={{boxShadow:"2px 2px 5px #000"}}
+            >
               <InlineWidget className='w-full'
                 url="https://calendly.com/hellofoinikas/30min" // Replace with your actual Calendly link
                 // prefill={{
                 //   name,
                 //   email,
                 // }}
-                styles={{ height: '700px' }}
+                styles={{ height: '600px' }}
               />
             </div>
           {/* )} */}

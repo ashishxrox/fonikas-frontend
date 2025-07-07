@@ -46,10 +46,10 @@ const Faq = () => {
 
             <div className='basis-[45%] md:basis-[95%] w-full h-full flex justify-center items-center flex-col'>
                 <h3 className='secondaryTitle text-white text-center md:text-left mb-[30px]'>Frequently Asked Questions</h3>
-                <div className='w-full md:w-[90%] h-[90%] md:h-[80%] flex justify-between items-center md:items-start md:pt-[60px] flex-col-reverse md:flex-row'>
+                <div className='w-full md:w-[90%] h-[90%] md:h-[80%] flex justify-between items-center md:items-center md:pt-[60px] flex-col-reverse md:flex-row'>
                     <motion.div
                         variants={itemVariants}
-                        className='support-box basis-[25%] h-full  md:h-[65%] w-full rounded-[20px] py-[20px] md:pb-[20px] px-[15px] flex justify-end items-center flex-col gap-[10px] mt-[40px] md:mt-[0]'
+                        className='support-box basis-[25%] h-full  md:h-[65%] w-full rounded-[20px] md:mb-[5%] py-[20px] md:pb-[20px] px-[15px] flex justify-end items-center flex-col gap-[10px] mt-[40px] md:mt-[0]'
                         style={{
                             background: "linear-gradient(180deg, #311B92 38.9%, #84FFFF 157.94%)",
                             boxShadow: "0px 0px 49px -2px #00000030"

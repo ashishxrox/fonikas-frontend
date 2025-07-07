@@ -47,7 +47,7 @@ const Footer = () => {
               <h5 className='font-[600] text-white text-[1.6rem]'>Legal</h5>
               <ul className='h-[80%] w-full flex justify-start items-start flex-col gap-[10px]'>
                 <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
-                  <Link className='text-[1.3rem] font-[400]'>Terms and Privacy Policy</Link>
+                  <Link className='text-[1.3rem] font-[400]' to={'/privacy'}>Terms and Privacy Policy</Link>
                 </li>
                 {/* <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
                   <Link className='text-[1.3rem] font-[400]'>Terms and Conditions</Link>

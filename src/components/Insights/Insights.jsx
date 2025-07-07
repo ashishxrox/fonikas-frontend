@@ -51,7 +51,7 @@ const Insights = () => {
           </div>
 
         </div> */}
-         {!isLoggedIn && <div className='absolute z-[9] bg-[rgba(255,255,255,0.1)] backdrop-blur-[5px] h-[100vh] md:h-[1510px] w-full rounded-[12px] flex justify-center items-center mt-[115%]'>
+         {!isLoggedIn && <div className='absolute z-[9] bg-[rgba(255,255,255,0.1)] backdrop-blur-[5px] h-[100vh] md:h-[1510px] w-full rounded-[12px] flex justify-center items-center mt-[115%] md:mt-[35%]'>
               <h3 className='tertiaryTitle text-[#9932CC] bg-white px-[40px] py-[20px] rounded-[12px]'
                 style={{ boxShadow: "5px 5px 15px #000" }}
               >Login to See</h3>

@@ -158,26 +158,27 @@ const Wealth = () => {
           <motion.div className=' basis-[65%] h-full w-full flex justify-center items-center flex-col mt-[40px] py-[20px] rounded-[12px] bg-[rgba(255,255,255,0.1)] backdrop-blur-[5px]'
           style={{boxShadow:"2px 2px 15px #000"}}
           >
-            <AnimatedHeading text="Our Partners" className="secondaryTitle text-white text-center" controls={controls} />
+            <AnimatedHeading text="OUR PARTNERS" className="tertiaryTitle text-white text-center" controls={controls} />
             <div className='w-full h-[85%] flex justify-center items-center flex-col mt-[20px]'>
              
-              <div className='basis-[75%] h-full w-full  flex justify-center gap-[80px] items-center flex-row'>
-                <div className='basis-[20%] w-full h-full bg-cover bg-center bg-no-repeat rounded-[12px]'
+              <div className='basis-[95%]  h-full w-full  flex justify-center gap-[80px] items-center flex-row'>
+                <div className='basis-[25%] w-full h-full bg-cover bg-center bg-no-repeat rounded-[12px]'
                   style={{ backgroundImage: `url("${IBKRLogo}")` }}
+                  // style={{ backgroundImage: `url("https://coursera-university-assets.s3.amazonaws.com/79/a3332252c4434bae934afc609051f5/ib-logo-360x360.png")` }}
                 ></div>
-                <div className='basis-[20%] w-full h-full bg-cover bg-center bg-no-repeat rounded-[12px]'
+                <div className='basis-[25%] w-full h-full bg-cover bg-center bg-no-repeat rounded-[12px]'
                   style={{ backgroundImage: `url("${ApexLogo}")` }}
                 ></div>
               </div>
 
-              <div className='basis-[20%] h-full w-full flex justify-center items-center flex-row '>
+              {/* <div className='basis-[20%] h-full w-full flex justify-center items-center flex-row '>
                   <h5 className='paragraph ml-[40px]'
                   style={{fontSize:"1.8rem"}}
                   >IBKR</h5>
                   <h5 className='paragraph ml-[160px]'
                   style={{fontSize:"1.8rem"}}
                   >APEX Group</h5>
-              </div>
+              </div> */}
 
             </div>
 
@@ -256,9 +257,9 @@ const Wealth = () => {
             </p>
           </div>
 
-          <div className=' basis-[40%] h-full w-full flex justify-center items-center flex-row gap-[80px] relative'>
-            <div className='h-auto w-full absolute top-0'>
-              <h5 className='tertiaryTitle text-white text-center'>Our Partners</h5>
+          <div className=' basis-[40%] h-full w-full flex justify-center items-center flex-row gap-[80px] relative mt-[30px]'>
+            <div className='h-auto w-full absolute top-[-20px]'>
+              <h5 className='tertiaryTitle text-white text-center '>OUR PARTNERS</h5>
 
             </div>
             <div className='basis-[50%] w-full h-full bg-contain bg-center bg-no-repeat rounded-[12px]'
@@ -267,11 +268,7 @@ const Wealth = () => {
             <div className='basis-[50%] w-full h-full bg-contain bg-center bg-no-repeat rounded-[12px]'
               style={{ backgroundImage: `url("${ApexLogo}")` }}
             ></div>
-            <div className='h-auto w-[75%] absolute bottom-[25px] flex justify-between items-center flex-row'>
-              <h5 className='paragraph text-white text-center'>IBKR</h5>
-              <h5 className='paragraph text-white text-center'>APEX</h5>
-
-            </div>
+            
           </div>
         </div>
 

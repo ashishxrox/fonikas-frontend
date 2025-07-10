@@ -17,8 +17,8 @@ const AuthLeft = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield h-6 w-6 text-blue-400" data-lov-id="src/pages/LoginSignup.tsx:23:12" data-lov-name="Shield" data-component-path="src/pages/LoginSignup.tsx" data-component-line="23" data-component-file="LoginSignup.tsx" data-component-name="Shield" data-component-content="%7B%22className%22%3A%22h-6%20w-6%20text-blue-400%22%7D"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>
                         </div>
                         <div className='w-[88%] h-full flex flex-col items-start gap-[10px]'>
-                        <h4 className='tertiaryTitle text-white' style={{fontSize:"1.2rem"}}>Bank-grade security, built for peace of mind</h4>
-                            <p className='paragraph'>Your assets are safeguarded with institutional-level infrastructure and encryption.</p>
+                        <h4 className='tertiaryTitle text-white' style={{fontSize:"1.2rem"}}>Bank-grade security</h4>
+                            <p className='paragraph'>Fully regulated European wealth manager offering transparent pricing and industry-leading security infrastructure to safeguard your investments</p>
                         </div>
                     </div>
                     <div className='basis-[23%] h-full w-full flex justify-between items-start flex row mb-[20px] gap-[20px]'>
@@ -26,7 +26,7 @@ const AuthLeft = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up h-6 w-6 text-green-400" data-lov-id="src/pages/LoginSignup.tsx:28:12" data-lov-name="TrendingUp" data-component-path="src/pages/LoginSignup.tsx" data-component-line="28" data-component-file="LoginSignup.tsx" data-component-name="TrendingUp" data-component-content="%7B%22className%22%3A%22h-6%20w-6%20text-green-400%22%7D"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg>
                         </div>
                         <div className='w-[88%] h-full flex flex-col items-start gap-[10px]'>
-                        <h4 className='tertiaryTitle text-white' style={{fontSize:"1.2rem"}}>Performance that adapts with the markets</h4>
+                        <h4 className='tertiaryTitle text-white' style={{fontSize:"1.2rem"}}>Performance that adapts with markets</h4>
                             <p className='paragraph'>Proprietary strategies dynamically adjust to evolving conditions—so your capital is always working smarter.</p>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const AuthLeft = () => {
                 >
                     <h3 className='flex justify-center items-center flex-row text-white font-[500] text-[1.3rem] gap-[20px]'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-5 w-5 text-green-400" data-lov-id="src/pages/LoginSignup.tsx:95:14" data-lov-name="Check" data-component-path="src/pages/LoginSignup.tsx" data-component-line="95" data-component-file="LoginSignup.tsx" data-component-name="Check" data-component-content="%7B%22className%22%3A%22h-5%20w-5%20text-green-400%22%7D"><path d="M20 6 9 17l-5-5"></path></svg>
-                        Regulated & Compliant
+                        Regulated & Secure
                     </h3>
                     <p className='paragraph'>Fully regulated European wealth management firm with transparent pricing and no hidden fees.</p>
                 </div>

@@ -49,7 +49,9 @@ const PartnersCTA = () => {
                         style={{background: "linear-gradient(to bottom, rgba(0,0,0,0) 65%, rgba(0,0,0,0.9))"}}
                         ></div>
                     </div>
-                    <p className='absolute z-[1] font-[700] text-[1.125rem] bottom-[20px] left-[20px] text-white'>Career </p>
+                    <p className='absolute z-[1] font-[700] text-[1.125rem] bottom-[20px] left-[20px] text-white'
+                    style={{fontFamily: "Satoshi"}}
+                    >Career </p>
                 </div>
                 <div className='basis-[23%] pcta-card w-full h-[85%] bg-[red] rounded-[12px] relative overflow-hidden'>
                     {/* <img src={Pcta1} alt="" 
@@ -62,7 +64,9 @@ const PartnersCTA = () => {
                         style={{background: "linear-gradient(to bottom, rgba(0,0,0,0) 65%, rgba(0,0,0,0.9))"}}
                         ></div>
                     </div>
-                    <p className='absolute z-[1] font-[700] text-[1.125rem] bottom-[20px] left-[20px] text-white'>Education </p>
+                    <p className='absolute z-[1] font-[700] text-[1.125rem] bottom-[20px] left-[20px] text-white'
+                    style={{fontFamily: "Satoshi"}}
+                    >Education </p>
                 </div>
                 <div className='basis-[23%] pcta-card w-full h-[85%] bg-[red] rounded-[12px] relative overflow-hidden'>
                     {/* <img src={Pcta1} alt="" 

@@ -187,7 +187,7 @@ const Finances = () => {
             </svg>
             }
               title="Loan"
-              desc="Smart lending for liquidity without disrupting long-term investments." />
+              desc="Smart lending for liquidity without disrupting long-term investments" />
           </AnimatedCard>
           <AnimatedCard className='basis-[25%] h-full w-full'>
             <FinanceCards icon={<svg width="101" height="100" viewBox="0 0 101 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -196,7 +196,7 @@ const Finances = () => {
             </svg>
             }
               title="Financial Planning"
-              desc="Grow your wealth at every step of the way, so you can embrace today’s opportunities while confidently planning for tomorrow" />
+              desc="Build wealth at every step, embrace today’s opportunities and plan for tomorrow with confidence" />
           </AnimatedCard>
         </motion.div>
         <p className='block md:hidden text-[#d9d9d9] relative top-[-5%] left-[-30%] text-[12px]'>Swipe to see</p>

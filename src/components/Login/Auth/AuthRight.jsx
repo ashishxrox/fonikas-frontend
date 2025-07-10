@@ -19,7 +19,7 @@ const AuthRight = ({setShow}) => {
             >
                 <h3 className='flex justify-center items-center flex-row tertiaryTitle text-white gap-[20px]'>
                   <span className='text-[25px] font-[500] relative top-[3px]'><ion-icon name="call-outline"></ion-icon></span>  
-                    Regulated & Compliant
+                    Regulated & Secure
                 </h3>
                 <p className='paragraph text-center'>Schedule a personalized consultation with our wealth management team</p>
                 <Link to={"/book"} className='primary-btn flex justify-center items-center'>Schedule a Call</Link>

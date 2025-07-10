@@ -40,7 +40,7 @@ const OurFeatures = () => {
     const cardContent = [{title: "Long-Term Thinking", content: "We invest against qualitative long-term secular growth themes rather than quarterly results – your portfolio grows with the future, not the headlines."},
                          {title: "Alpha Potential Through Global Access", content: "We tap into skilled active strategies and maintain value-discipline across public and private markets globally, broadening opportunity and boosting return potential."},
                          {title: "Dynamic Allocation", content: "We actively monitor and adjust risk exposures in response to real-world economic changes to build resilient, expert portfolios."},
-                         {title: "Transparent & Low Fees", content: "We keep the total cost drag low by elimination of unnecessary lawyers and hidden charges."},
+                         {title: "Transparent & Low Fees", content: "We keep the total cost drag low by elimination of unnecessary layers and hidden charges."},
                          {title: "Innovation", content: "We leverage advanced trading technology, state of the art security and institutional-grade tools to uncover trading opportunities and to keep portfolios aligned with the forces shaping the future"},
     ]
 

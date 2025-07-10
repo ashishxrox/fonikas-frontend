@@ -3,8 +3,8 @@ import Bg1 from '../../assets/bg1.jpg';
 
 const Privacy = () => {
     return (
-        <div className='h-auto w-full flex justify-center items-center bg-cover bg-center'
-            style={{ backgroundImage: `url("${Bg1}")` }}
+        <div className='h-auto w-full flex justify-center items-center bg-[#1f0713]'
+            // style={{ backgroundImage: `url("${Bg1}")` }}
         >
 
             <div className='h-auto w-[90%] bg-[blue] px-[50px] py-[40px] rounded-[12px] my-[10%] gap-[30px] flex justify-evenly items-start flex-col bg-[rgba(255,255,255,0.1)] backdrop-blur-[15px]'>

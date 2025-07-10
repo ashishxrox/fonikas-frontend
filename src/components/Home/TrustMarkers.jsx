@@ -62,7 +62,7 @@ const TrustMarkers = () => {
                         </h3>
                         <p className='paragraph'
                         style={{fontSize:"12px"}}
-                        >Execution slippage reduced by up to 98% vs traditional banks—preserving more of your portfolio's value</p>
+                        >Execution slippage reduced by up to 98%<sup>1</sup> vs traditional banks—preserving more of your portfolio's value</p>
                     </div>
 
                 </div>

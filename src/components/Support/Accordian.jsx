@@ -24,11 +24,11 @@ const Accordian = () => {
       },
       {
         q: "How financially strong is Interactive Brokers?",
-        a: "Interactive Brokers has one of the strongest balance sheets in the industry, with $16.6 billion in equity capital, no long-term debt, and an A- credit rating from S&P. It also holds significantly more capital than required by regulators, ensuring stability and client protection."
+        a: "Interactive Brokers has one of the strongest balance sheets in the industry, with $17+ billion in equity capital, no long-term debt, and an A- credit rating from S&P. It also holds significantly more capital than required by regulators, ensuring stability and client protection."
       },
       {
         q: "Is Foinikas a regulated investment firm?",
-        a: "Yes. Foinikas Ltd is licensed and regulated by the Malta Financial Services Authority (MFSA) as an Investment Firm under the Investment Services Act. We operate in full compliance with EU MiFID II regulations, and are authorized to provide discretionary portfolio management and investment advisory services across the European Economic Area (EEA). The MFSA supervises our operations to ensure the highest standards of client protection, governance, and conduct."
+        a: "Yes, our parent company Foinikas Wealth Management Ltd. is licensed and regulated by the Malta Financial Services Authority (MFSA) as an Investment Firm under the Investment Services Act. We operate in full compliance with EU MiFID II regulations, and are authorized to provide discretionary portfolio management across the European Economic Area (EEA). The MFSA supervises our operations to ensure the highest standards of client protection, governance, and conduct."
       }
     ],
     "Transparency & Access": [

@@ -85,7 +85,7 @@ const PartnerBottom = () => {
                         visible: { y: 0, opacity: 1, transition: { duration: 1, ease: 'easeOut' } },
                     }}
                 >
-                    Our founding team spent decades advising entrepreneurs, family offices, and institutional investors at top global institutions. Overtime, we saw a gap: even at the highest levels, innovation was slow, digital tools were outdated, and personalization was limited. We started Foinikas to fix that.
+                    Our founding team spent decades advising entrepreneurs, family offices, and institutional investors at top global institutions. Over time, we saw a gap: even at the highest levels, innovation was slow, digital tools were outdated, and personalization was limited. We started Foinikas to fix that.
 
                     We envisioned a firm that blends timeless investing principles with cutting-edge infrastructure—a place where strategy meets simplicity, and where clients don't have to choose between sophistication and accessibility.
                 </motion.p>

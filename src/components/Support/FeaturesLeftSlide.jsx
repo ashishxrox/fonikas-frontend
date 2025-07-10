@@ -16,7 +16,7 @@ const FeaturesLeftSlide = () => {
   const cardData = [{
     title: "Liquidity Booster",
     subText: "Cash Allocation",
-    desc: "Generate steady, growing income through diversified sources built to beat inflation and banking interest. Perfect for income-focused investors who value predictability over peak returns."
+    desc: "Generate steady, growing income through diversified sources built to beat inflation and banking interest. Perfect for income-focused investors who value predictability over peak returns"
   },
   {
     title: "Resilient Growth",
@@ -33,7 +33,7 @@ const FeaturesLeftSlide = () => {
   {
     title: "Wealth Scaling",
     subText: "Thematic Investing",
-    desc: "Capture long-term upside by investing in long-run secular mega trends and innovation. Best suited for early-stage investors willing to take on more risk in exchange for greater potential return over time."
+    desc: "Capture long-term upside by investing in long-run secular mega trends and innovation. Best suited for early-stage investors willing to take on more risk in exchange for greater potential return over time"
   }
 ]
 

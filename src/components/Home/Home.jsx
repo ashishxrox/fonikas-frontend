@@ -127,10 +127,10 @@ const Home = () => {
           <div className='h-auto md:h-[75px] w-auto md:w-[800px] flex justify-around items-center flex-row relative'>
             <div className='basis-[40%] w-[100%] h-auto md:h-[80%] flex justify-center gap-[30px] items-center flex-col md:flex-row'>
               <Link ref={buttonRef} to={'/login'} state={{ current: "signup" }} className=' home-btn   flex justify-center items-center'>
-                Start Investing Today
+                Get Started
               </Link>
-              <Link ref={button2Ref} to={'/about-us'} className='home-btn flex justify-center items-center'>
-                View Market Insights
+              <Link ref={button2Ref} to={'/invest'} className='home-btn flex justify-center items-center'>
+                Learn More
               </Link>
             </div>
           </div>
@@ -195,7 +195,7 @@ const Home = () => {
           >
             <div className='h-full w-full bg-[rgba(0,0,0,0.0)] px-[20px] py-[20px] flex justify-end items-start flex-col '>
               <h2 className='titleText'>−98%</h2>
-              <p className='paragraph text-left'>Execution slippage reduced by up to 98% vs traditional banks—preserving more of your portfolio's value</p>
+              <p className='paragraph text-left'>Execution slippage reduced by up to 98%<sup>1</sup> vs traditional banks—preserving more of your portfolio's value</p>
             </div>
 
           </div>
@@ -243,7 +243,7 @@ const Home = () => {
                   <Link ref={buttonRef} to={'/login'} state={{ current: "signup" }} className=' secondary-btn   flex justify-center items-center'>
                     Get Started
                   </Link>
-                  <Link ref={button2Ref} to={'/insights'} className='secondary-btn flex justify-center items-center'>
+                  <Link ref={button2Ref} to={'/invest'} className='secondary-btn flex justify-center items-center'>
                     Learn More
                   </Link>
                 </div>

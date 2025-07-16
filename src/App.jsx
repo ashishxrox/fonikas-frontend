@@ -25,6 +25,12 @@ import AuthPage from './components/Login/AuthPage'
 import ResetPassword from './components/Login/Auth/ResetPassword'
 import FeatureSlideLeft from './components/Support/FeaturesLeftSlide'
 import Privacy from './components/Privacy/Privacy'
+import Disclosure from './components/Privacy/Disclosure'
+import Disclaimer from './components/Privacy/Disclaimer'
+import Imprint from './components/Privacy/Imprint'
+import PrivacyStatement from './components/Privacy/PrivacyStatement'
+import CookiePolicy from './components/Privacy/Cookie'
+
 
 
 function App() {
@@ -124,6 +130,11 @@ return (
           <Route path='/reset-password/:token' element={<ResetPassword/>} />
           <Route path='/slide' element={<FeatureSlideLeft/>} />
           <Route path='/privacy' element={<Privacy/>} />
+          <Route path='/disclosure' element={<Disclosure/>} />
+          <Route path='/disclaimer' element={<Disclaimer/>} />
+          <Route path='/imprint' element={<Imprint/>} />
+          <Route path='/privacy-statement' element={<PrivacyStatement/>} />
+          <Route path='/cookies' element={<CookiePolicy/>} />
 
           {/* Add more routes as needed */}
         </Routes>

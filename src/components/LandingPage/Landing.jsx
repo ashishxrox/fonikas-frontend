@@ -67,29 +67,7 @@ const Landing = () => {
             opacity: 1
         });
 
-        // ✨ Features Section Animation
-        gsap.timeline({
-            scrollTrigger: {
-                trigger: ".features-section",
-                start: "-20% center",
-                end: "5% 100%",
-                scrub: true,
-                markers: false,
-            }
-        }).to(".target", {
-            // x: -1000,
-            y: -600,
-            // rotate: 5,
-            scale: 0.5,
-            // rotateZ: -15,
-            duration: 26,
-            ease: "none",
-            opacity: 0
-        });
-
-
-
-        // ✨ finance Section Animation
+          // ✨ finance Section Animation
         gsap.timeline({
             scrollTrigger: {
                 trigger: ".finances-section",
@@ -112,6 +90,30 @@ const Landing = () => {
             opacity: 1
         });
 
+
+        // ✨ Features Section Animation
+        gsap.timeline({
+            scrollTrigger: {
+                trigger: ".features-section",
+                start: "-20% center",
+                end: "5% 100%",
+                scrub: true,
+                markers: false,
+            }
+        }).to(".target", {
+            // x: -1000,
+            y: -600,
+            // rotate: 5,
+            scale: 0.5,
+            // rotateZ: -15,
+            duration: 26,
+            ease: "none",
+            opacity: 0
+        });
+
+
+
+      
 
 
         // gsap.timeline({

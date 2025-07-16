@@ -5,7 +5,7 @@ import Logo from '../../assets/newLogoFooter.png'
 
 const Footer = () => {
   return (
-    <div className='h-auto md:h-[110vh] w-full bg-cover bg-bottom relative'
+    <div className='h-auto md:h-[60vh] w-full bg-cover bg-bottom relative'
     >
       <div className='h-full w-full bg-[#66023C] absolute z-[-2]'></div>
       <div className='h-full w-full bg-[rgba(0,0,0,0.5)] flex  justify-end items-center flex-col '>
@@ -47,11 +47,29 @@ const Footer = () => {
               <h5 className='font-[600] text-white text-[1.6rem]'>Legal</h5>
               <ul className='h-[80%] w-full flex justify-start items-start flex-col gap-[10px]'>
                 <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
-                  <Link className='text-[1.3rem] font-[400]' to={'/privacy'}>Terms and Privacy Policy</Link>
+                  <Link className='text-[1.3rem] font-[400]' to={'/privacy'}>Terms</Link>
+                  
                 </li>
-                {/* <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
-                  <Link className='text-[1.3rem] font-[400]'>Terms and Conditions</Link>
-                </li> */}
+                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  
+                  <Link className='text-[1.3rem] font-[400]' to={'/disclosure'}>SDFR disclosures (EU)</Link>
+                  
+                </li>
+                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <Link className='text-[1.3rem] font-[400]' to={'/disclaimer'}>Disclaimer</Link>
+                </li>
+
+                <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <Link className='text-[1.3rem] font-[400]' to={'/imprint'}>Imprint</Link>
+                </li>
+
+                 <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <Link className='text-[1.3rem] font-[400]' to={'/privacy-statement'}>Privacy Statement (EU)</Link>
+                </li>
+
+                 <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
+                  <Link className='text-[1.3rem] font-[400]' to={'/cookies'}>Cookie Policy (EU)</Link>
+                </li>
                 {/* <li className='text-[1rem] font-[600] text-white hover:text-[#808080]'>
                   <Link className='text-[1.3rem] font-[400]'>Risk Disclosures</Link>
                 </li> */}
@@ -74,7 +92,7 @@ const Footer = () => {
             </div>
           </div>
           <div className='h-[1px] w-full bg-white my-[20px] md:my-[0]'></div>
-          <div className='basis-[52%] h-full w-full flex justify-evenly items-center md:items-start flex-col px-[20px] md:px-[0]'>
+          {/* <div className='basis-[52%] h-full w-full flex justify-evenly items-center md:items-start flex-col px-[20px] md:px-[0]'>
             <p className='font-[400] text-[0.9rem] text-[#d9d9d9]'>For a €250,000 portfolio with ten €25,000 trades annually, portfolios managed on IBKR's platform may reduce total trading-related costs by up to 1.5% per year, or as much as 98% compared to traditional banks. This is based on three core components:</p>
             <div className='h-auto w-full'>
               <p className='font-[400] text-[0.9rem] text-[#d9d9d9]'>(1) Commissions: IBKR charges €0.50–€3.75 per trade (as low as 0.0035 EUR/share) versus €25–€50 at banks like BNP Paribas, Credit Suisse, or Deutsche Bank—yielding up to 98% lower trading fees;</p>
@@ -93,9 +111,9 @@ const Footer = () => {
             </ul>
             </div>
             <p className='font-[400] text-[0.9rem] text-[#d9d9d9]'> <span className='font-[600] text-[1rem]'>Disclaimer:</span>  These are best-estimate calculations based on publicly available information as of 2024. Costs may vary depending on account structure, portfolio activity, and negotiated fees. This illustration is not a guarantee of future savings or investment performance. Investors should always consult a qualified advisor.</p>
-          </div>
-          <div className='h-[1px] w-full bg-white my-[20px] md:my-[0]'></div>
-          <div className='basis-[10%] h-full w-full flex justify-between items-center flex-col md:flex-row '>
+          </div> */}
+          {/* <div className='h-[1px] w-full bg-white my-[20px] md:my-[0]'></div> */}
+          <div className='basis-[15%] h-full w-full flex justify-between items-center flex-col md:flex-row '>
             <div className='basis-[30%] h-full w-full overflow-hidden flex justify-start items-center'
             >
               <Link to={"/"} className='h-[100%] overflow-hidden mt-[40px]'>
